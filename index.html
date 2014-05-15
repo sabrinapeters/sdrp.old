@@ -32,7 +32,7 @@ layout: default
             </div>
         </aside>
         <section class="frontpostindex">
-            {% for post in site.posts %}
+            {% for post in site.posts limit:8 %}
             <article class="frontpost">
                 <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
                 <div class="meta">{{ post.date | date: "%b %-d, %Y" }}</div>
