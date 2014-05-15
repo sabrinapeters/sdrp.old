@@ -1,23 +1,21 @@
 <header class="header">
-
-  <div class="container">
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
-    <nav class="site-nav">
-
-        {% for page in site.pages %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-        {% endfor %}
-    </nav>
-
-  </div>
-<div class="container">
+    <div class="container">
+        <nav class="site-nav">
+            {% for page in site.pages %}
+              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            {% endfor %}
+        </nav>
+    </div>
+    <div class="container">
 		<div class="logo">
-			<h1><a href="http://sabri.na:8888">S</a><span class="hide">abrina Peters</span></h1>
+			<h1><a href="{{ site.baseurl }}/">S</a><span class="hide">abrina Peters</span></h1>
 		</div>
-		<nav class="nav"><ul id="menu-primary-menu" class="menu"><li id="menu-item-1068" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1068"><a href="http://sabri.na:8888/contact/">Contact</a></li>
-<li id="menu-item-1069" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1069"><a href="http://sabri.na:8888/links/">Links</a></li>
-<li id="menu-item-1070" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1070"><a href="http://sabri.na:8888/sample-page/">About</a></li>
-</ul></nav>	</div>
+		<nav class="nav">
+            <ul class="menu">
+                <li><a href="/contact/">Contact</a></li>
+                <li><a href="/links/">Links</a></li>
+                <li><a href="/about/">About</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
