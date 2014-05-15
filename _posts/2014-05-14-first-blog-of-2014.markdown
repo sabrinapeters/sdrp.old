@@ -1,5 +1,4 @@
-layout: post
-title:  "first blog post of 2014"
+
 
 I haven't blogged in almost a year.
 
