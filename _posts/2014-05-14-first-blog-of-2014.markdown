@@ -16,4 +16,4 @@ Having an expired domain is kind of a nice excuse to get a new blog look to go a
 
 Thus, I present to you my new blog. I promise not to let this one expire.
 
-Check out my new [bio](http://www.sabrinapeters.com/about) page. Get at me on Twitter for more.
+Check out my new [bio](/about/) page. Get at me on Twitter for more.
