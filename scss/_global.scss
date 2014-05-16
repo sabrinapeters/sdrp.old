@@ -51,9 +51,20 @@ html {
     div.left {
         @include span-columns(3);
         padding: .5rem;
+        @include media($mobile) {
+            @include span-columns(6);
+            img {
+                max-width: 5rem;
+                margin: 1rem auto;
+                display: block;
+            }
+        }
     }
     div.right {
         @include span-columns(9);
+        @include media($mobile) {
+            @include span-columns(6);
+        }
     }
 }
 

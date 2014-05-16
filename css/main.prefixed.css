@@ -632,6 +632,22 @@ html {
 .aboutinfo div.left:last-child {
   margin-right: 0;
 }
+@media screen and (max-width: 31.25rem) {
+  .aboutinfo div.left {
+    float: left;
+    display: block;
+    margin-right: 4.82916%;
+    width: 100%;
+  }
+  .aboutinfo div.left:last-child {
+    margin-right: 0;
+  }
+  .aboutinfo div.left img {
+    max-width: 5rem;
+    margin: 1rem auto;
+    display: block;
+  }
+}
 .aboutinfo div.right {
   float: left;
   display: block;
@@ -640,6 +656,17 @@ html {
 }
 .aboutinfo div.right:last-child {
   margin-right: 0;
+}
+@media screen and (max-width: 31.25rem) {
+  .aboutinfo div.right {
+    float: left;
+    display: block;
+    margin-right: 4.82916%;
+    width: 100%;
+  }
+  .aboutinfo div.right:last-child {
+    margin-right: 0;
+  }
 }
 
 .frontposts {
