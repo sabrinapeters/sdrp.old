@@ -28,7 +28,7 @@ Navigate to the prompted address in a web browser.
 
 
 ## To-Do
-[ ] Disqus `max-width: 100%`
-[ ] Navigation
-[ ] Archives
-[ ] Asset directory
+- [ ] Disqus `max-width: 100%`
+- [ ] Navigation
+- [ ] Archives
+- [ ] Asset directory
