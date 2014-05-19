@@ -9,4 +9,16 @@ Good morning, everyone!
 
 Today I thought I'd share some images from this weekend, along with a few of my favorite/happy things.
 
-![At the rate I'm going, I will have at least one new plant every week. Found a lovely aloe vera at the farmer's market on Saturday, and later that afternoon, we got some lovely bouquets a very nice vendor, in exchange for two Square readers.](/chopinnut2/Pictures/blogpost1.jpg)
+On Saturday, after I supported some local farms (found eggs, strawberries, apples, and a lovely aloe vera plant!) we finally tried the Taco Shark truck. (I don't have any pictures, but feel free to find C's Intsagram feed for a beautiful capture of the best tacos we've had in a long, long, time.) After our tacos, we went back to the farmer's market for some flowers. Problem: we didn't have cash, and the lovely vendor didn't have a Square reader. Solution: C runs back up to our apartment to grab the two extra Square readers we had while I make a new friend, and in exchange she refuses to let us pay for the flowers. Win!
+
+![At the rate I'm going, I will have at least one new plant every week!](/chopinnut2/Pictures/blogpost1.jpg)
+
+![Flowers in hand, we headed over to the truly Phantastic Books, where we picked up these two.](/chopinnut2/Pictures/blogpost2.jpg)
+
+And, this Monday morning, here are a few of my favorite/happy things.
+
+![New family members.](/chopinnut2/Pictures/blogpost3.jpg)
+
+![My happy mugs. I am drinking green tea, and C takes black coffee this morning.](/chopinnut2/Pictures/blogpost4.jpg)
+
+What brings you happiness?
