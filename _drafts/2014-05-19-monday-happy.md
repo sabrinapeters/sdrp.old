@@ -23,6 +23,6 @@ And, this Monday morning, here are a few of my favorite/happy things.
 ![](/img/monday-plants.jpg)
 
 ![](/img/monday-mugs.jpg)
-(My "happy mugs".)
+(My "happy mugs.")
 
 What brings you happiness this Monday?
