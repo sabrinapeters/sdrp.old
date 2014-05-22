@@ -5,7 +5,9 @@ date:   2014-05-22
 comments: true
 ---
 
-There's a very interesting dude that C & I like to call "Mr. Apocalypse". The moniker came about because this guy is always ranting about Y2K and the end of the world. One day when C was walking down the street, Mr. Apocalypse decides to get in his face and say loudly, "This weather is like the end of the world! The world's gonna end!" This guy is obsessed with a few computer games that he plays at the library, and I recently learned that he believes he is actually fighting crime through one of the games he plays.
+There's a very interesting dude that C & I like to call "Mr. Apocalypse". The moniker came about because this guy is always ranting about Y2K and the end of the world. One day when C was walking down the street, Mr. Apocalypse decides to get in his face and say loudly, "This weather is like the end of the world! The world's gonna end!" When C tells him he's on a walk, Mr. Apocalypse replies, "Okay, I'll be right here when you get back!" This guy has a nice, thick shock of grey hair (never combed), and small, round spectacles to accentuate a pair of pensive brown eyes, to go along with his slightly paranoid personality.
+
+Mr. Apocalypse is also obsessed with a few computer games that he plays at the library, and I recently learned that he believes he is actually fighting crime through one of the games he plays.
 
 One particular Saturday around lunchtime, when I was working (it was just me and one other co-worker), our go-to, default, public printer broke. At the same time, I was getting complaints from a few individuals who could not access their games, because the city's network-wide web filter was blocking them. I had two complaints from one individual, and then one complaint from Mr. Apocalypse, who leaves after making this issue known.
 
