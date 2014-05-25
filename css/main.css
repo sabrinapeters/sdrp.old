@@ -580,6 +580,10 @@ html {
   display: block;
 }
 
+.hide {
+  display: none;
+}
+
 .container {
   max-width: 68em;
   margin-left: auto;
@@ -983,6 +987,41 @@ article.single hr {
 }
 .goodreads_shelf .item img:hover {
   opacity: .1;
+}
+
+ul.sharing {
+  list-style: none;
+  text-align: center;
+  margin: 2rem auto;
+}
+ul.sharing li {
+  display: inline-block;
+  margin: 1rem .5rem;
+}
+ul.sharing svg {
+  max-width: 3rem;
+}
+ul.sharing a {
+  border: 0;
+  background: none;
+}
+ul.sharing .circling {
+  border-radius: 100%;
+  border: 1px solid #85b3c1;
+  padding: .5rem;
+}
+ul.sharing .icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  fill: #85b3c1;
+  background: none;
+  transition: all 750ms ease;
+}
+ul.sharing .icon:hover, ul.sharing .icon:focus {
+  background: #5b87a4;
+  width: 3rem;
+  height: 3rem;
+  fill: white;
 }
 
 input[type="text"], input[type="email"], textarea {

@@ -1,0 +1,30 @@
+<ul class="sharing">
+        <li>
+            <a href="https://twitter.com/intent/tweet?text='{{ page.title }}'&amp;url={{ page.url | prepend: site.url }}&amp;via=charlespeters" target="_blank">
+                <svg viewBox="0 0 300 300" class="icon circling">
+                    <use xlink:href="#twitter"></use>
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url }}" target="_blank">
+                <svg viewBox="0 0 300 300" class="icon circling">
+                    <use xlink:href="#facebook"></use>
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a href="https://plus.google.com/share?url={{ page.url | prepend: site.url }}" target="_blank">
+                <svg viewBox="0 0 300 300" class="icon circling">
+                    <use xlink:href="#googleplus"></use>
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a href="{{ page.url | prepend: site.url }}" target="_blank">
+                <svg viewBox="0 0 300 300" class="icon circling">
+                    <use xlink:href="#link"></use>
+                </svg>
+            </a>
+        </li>
+</ul>

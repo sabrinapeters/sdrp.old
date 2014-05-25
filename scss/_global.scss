@@ -13,7 +13,9 @@ html {
     clear: both;
     display: block;
 }
-
+.hide {
+    display: none;
+}
 .container {
     @include outer-container;
 }
