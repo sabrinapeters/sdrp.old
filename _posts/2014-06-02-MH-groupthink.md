@@ -18,7 +18,7 @@ Every time I observe a post on FB about Mars Hill (MH) and/or Mark Driscoll (MD)
 3. Don't go by hearsay!
 
 
-It does not matter who started which thread. I watched two unrelated MH threads explode with these same reactions from current members, and it told me one thing: group think. Which leads to the next question: whence comes group think?
+It does not matter who started which thread. I watched two unrelated MH threads explode with these same reactions from current members, and it told me one thing: groupthink. Which leads to the next question: whence comes groupthink?
 
 That should be fairly easy to answer: manipulation and fear tactics. And whose fault would that be? Easy: leadership. Okay, but what's wrong with the leadership? Again, I've noticed some themes in MH leadership.
 
