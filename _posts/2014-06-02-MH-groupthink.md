@@ -21,15 +21,16 @@ Every time I observe a post on FB about Mars Hill (MH) and/or Mark Driscoll (MD)
 
 It does not matter who started which thread. I watched two unrelated MH threads explode with these same reactions from current members, and it told me one thing: groupthink. Which leads to the next question: whence comes groupthink?
 
-That should be fairly easy to answer: manipulation and fear tactics. And whose fault would that be? Easy: leadership executes those things. But okay, what's wrong with the leadership? On this issue is where I've ruminated the most. I've noticed some themes in MH leadership.
+That should be fairly easy to answer: manipulation and fear tactics. Parishioners are told repeatedly (explicitly and implicitly) to say and behave in certain ways in certain situations.
+
+And whose fault would that be? Easy: leadership executes those orders. But okay, what's wrong with the leadership? On this issue is where I've ruminated the most. I've noticed some themes in MH leadership.
 
 1. Mark Driscoll, of course, whose personality is another blog post.
 2. Fairly young leadership.
 3. Male, because of gender hierarchy/complementarianism.
 
-It is easy to indoctrinate young minds to prime them for leadership, and MD's domineering "man's man" (whatever that means!) personality is quite attractive to like-minded young men. And when you put young, impressionable people in charge, they will support and defend the Leader without question. I can definitely see this at MH.
-
+It is easy to indoctrinate young minds to prime them for leadership, and MD's domineering "man's man" (whatever that means!) personality is quite attractive to like-minded young men. And when you put young, impressionable people in charge, they will support and defend the Leader without question. I can definitely see this at MH, and to me, it is the one giant red flag that points to a cult mentality.
 
 Others with more experience than I have written more detailed [posts](http://www.elizabethesther.com/2014/03/is-marshill-church-a-cult.html) on why MH may be a cult. I don't have that experience, but even if one begins to look at _just_ the leadership structure, something starts to smell cult-y.
 
-Thoughts? Not looking for arguments, but rather any leadership patterns you've experienced or noticed (in general, not just within the MH context) that could go rotten quickly. 
+Thoughts? Not looking for arguments, but rather any leadership patterns you've experienced or noticed (in general, not just within the MH context) that could go rotten quickly.
