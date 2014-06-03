@@ -11,4 +11,4 @@ Last week I read a lot. Some fairly heavy events transpired last week, and my he
 
 That was the first work I've ever read by Adichie, and her talent as a writer was evident and undeniable. There's a lot going on in this book. There's discussion on African hair, Nigerian culture, British culture, and American culture. There are insights into immigration, racism, and gender roles. All of this is bookended by a love story stretching across time and continents.
 
-I loved the way Adichie painted her characters. I could picture each one quite vividly
+I loved the way Adichie paints her characters. I could picture each one quite vividly with ease. She writes with suspense, gracefully moving from one side of the narrative to the other, when Ifemelu and Obinze end up on different continents. She writes with keen insight into the way Americans view racism and immigration. She keeps the plot moving at a steady, not-too-slow, not-too-fast pace. 
