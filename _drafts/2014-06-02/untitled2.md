@@ -27,7 +27,7 @@ That should be fairly easy to answer: manipulation and fear tactics. And whose f
 3. Male, because of gender hierarchy.
 
 
-It is easy to indoctrinate young minds to prime them for leadership, and MD's domineering "man's man" (whatever that means!) personality is quite attractive to like young men. And when you put young, impressionable people in charge, they will support and defend the Leader without question.
+It is easy to indoctrinate young minds to prime them for leadership, and MD's domineering "man's man" (whatever that means!) personality is quite attractive to like-minded young men. And when you put young, impressionable people in charge, they will support and defend the Leader without question.
 
 
 Others with more experience than I have written more detailed [posts](http://www.elizabethesther.com/2014/03/is-marshill-church-a-cult.html) on why MH may be a cult. I don't have that experience, but even if one looks at _just_ the leadership structure, something starts to smell cult-y.
