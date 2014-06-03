@@ -1,4 +1,5 @@
 ___
+
 layout: post
 title: "working on it"
 date: 2014-06-02
@@ -22,4 +23,4 @@ That should be fairly easy to answer: manipulation and fear tactics. And whose f
 1) Mark Driscoll, of course.
 2) Fairly young leadership.
 3) Male.
-4) 
+4)
