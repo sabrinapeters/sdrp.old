@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MH & Group Think"
+title: "MH & Groupthink"
 date: 2014-06-02
 comments: true
 ---
