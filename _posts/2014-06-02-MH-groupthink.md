@@ -21,7 +21,7 @@ Every time I observe a post on FB about Mars Hill (MH) and/or Mark Driscoll (MD)
 
 It does not matter who started which thread. I watched two unrelated MH threads explode with these same reactions from current members, and it told me one thing: groupthink. Which leads to the next question: whence comes groupthink?
 
-That should be fairly easy to answer: manipulation and fear tactics. Parishioners are told repeatedly (explicitly and implicitly) to say and behave in certain ways in certain situations.
+That should be fairly easy to answer: manipulation and fear tactics. Parishioners are told repeatedly (explicitly and implicitly) to say and behave in certain ways in certain situations, and because MH members are "all about Jesus", when the authority of Jesus is invoked, well, it is an unquestionable mandate.
 
 And whose fault would that be? Easy: leadership executes those orders. But okay, what's wrong with the leadership? On this issue is where I've ruminated the most. I've noticed some themes in MH leadership.
 
