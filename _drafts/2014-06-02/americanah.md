@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "untitled"
+title:  "Short Review of Americanah"
 date:   2014-06-02
 comments: true
 ---
@@ -13,4 +13,4 @@ That was the first work I've ever read by Adichie, and her talent as a writer wa
 
 I loved the way Adichie paints her characters. I could picture each one quite vividly with ease. She writes with suspense, gracefully moving from one side of the narrative to the other, when Ifemelu and Obinze end up on different continents. She writes with keen insight into the way Americans view racism and immigration. She keeps the plot moving at a steady, not-too-slow, not-too-fast pace.
 
-Since I'm not African or African-American, I don't think I can comment on much of the content in the book except that Adichie's perspectives provided more enlightenment on cross-cultural issues and the evil systems of prejudice and white privilege that permeate the US. I did, however, think the love story between Ifemelu and Obinze was somewhat predictable and disappointing.
+Since I'm not African or African-American, I don't think I can comment on much of the content in the book except that Adichie's perspectives provided more enlightenment on cross-cultural issues and the evil systems of prejudice and white privilege that permeate the US. I loved how the book featured strong women. I did, however, think the love story between Ifemelu and Obinze was somewhat predictable and disappointing.
