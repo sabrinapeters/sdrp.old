@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Short Review of Americanah"
+title:  "A Short Review of Americanah"
 date:   2014-06-09
 comments: true
 ---
