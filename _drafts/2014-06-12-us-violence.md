@@ -27,4 +27,6 @@ I also think about the fact that the US started in part thanks to rebels and gun
 
 Never mind the strong culture of violence that is central in this country. Violent acts are seen as an answer to a multitude of problems, and are even portrayed in many recreational activities. I can think of a few off the top of my head: paintball, hockey, video games, boxing, films.
 
-We could spend hours discussing the specific reasons behind the most recent violent acts. Misogyny, mental illness, patriarchy, racism. Dozens of evil systems.
+We could spend hours discussing the specific reasons behind the most recent violent acts. Misogyny, mental illness, patriarchy, racism. There are dozens of evil systems at play.
+
+When it comes down to it, though, I think the problem is really an epidemic of fear. 
