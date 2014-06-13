@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "On Heart Conditions, Systems of Violence, Fear"
+title:  "On Heart Conditions, Systems of Violence, and Fear"
 date:   2014-06-12
 comments: true
 ---
@@ -29,4 +29,14 @@ Never mind the strong culture of violence that is central in this country. Viole
 
 We could spend hours discussing the specific reasons behind the most recent violent acts. Misogyny, mental illness, patriarchy, racism. There are dozens of evil systems at play.
 
-When it comes down to it, though, I think the problem is really an epidemic of fear. 
+When it comes down to it, though, I think the problem is really an epidemic of fear. We worship the wrong rulers.
+
+Think about it.
+
+Most people are afraid of mental illness. They are afraid and ashamed, and the people suffering from it suffer even more at the hands of those who would care for them.
+
+Racism stems from a fear of difference.
+
+Misogyny & patriarchy stem from a fear of power-loss. I daresay that Mr. Rodgers was extremely afraid of being alone, too.
+
+So, yes, the problem of violence we have in this country may stem from a heart problem, and when I say "heart", I mean gut, or intuition. The tendency to fall back on violence is strong because of fear. 
