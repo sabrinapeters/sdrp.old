@@ -5,6 +5,8 @@ description: "I'm a library assistant, researcher, and MLIS student."
 baseurl: ""
 url: "http://sabrinapeters.net"
 
+exclude: ["node_modules", "package.json", "Gruntfile.js"]
+
 # Build settings
 markdown: kramdown
 permalink: pretty
