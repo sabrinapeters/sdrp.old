@@ -26,7 +26,7 @@ Most people are afraid of mental illness. They are afraid and ashamed, and the p
 
 Racism stems from a fear of different people, right?
 
-And misogyny/patriarchy stem from a fear of power-loss. I daresay that Mr. Rodgers was extremely afraid of being alone, too.
+And misogyny/patriarchy stem from a fear of power-loss. I daresay that Mr. Rodger was extremely afraid of being alone, too.
 
 Still, there are those afraid of losing liberty. What are you most afraid of? Losing your American citizenship/identity, or your Kingdom citizenship? They're not the same. In fact, they are completely separate.
 
