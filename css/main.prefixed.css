@@ -1,5 +1,4 @@
 * {
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -566,7 +565,6 @@ h1, h2, h3, h4, h5, h6, li {
 * {
   margin: 0;
   padding: 0;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -861,22 +859,30 @@ img.aboutdefault {
 
 article.single {
   margin: 1rem auto;
-  max-width: 38rem;
+  max-width: 40rem;
   padding: 1.25rem;
 }
 article.single header {
   padding: 1rem .25rem;
-  text-align: center;
   text-transform: uppercase;
+  border-bottom: 5px solid #90c0ce;
+  margin-bottom: 1.5rem;
 }
 article.single header h1 {
-  font: 600 1.5rem/1.4 "kulturista-web", serif;
+  font: 400 1.75rem/1.4 "kulturista-web", serif;
   color: #85b3c1;
   letter-spacing: 1px;
 }
-article.single header .meta {
-  padding: .5rem .25rem;
+article.single header h2 {
+  font-weight: 400;
+  font-size: 1.25rem;
   letter-spacing: 2px;
+  color: rgba(72, 72, 72, 0.75);
+}
+article.single header .meta {
+  padding: .5rem 0;
+  letter-spacing: 2px;
+  color: #85b3c1;
 }
 article.single p {
   font-size: 1.125rem;
@@ -1015,7 +1021,6 @@ ul.sharing .icon {
   height: 2.5rem;
   fill: #85b3c1;
   background: none;
-  -webkit-transition: all 750ms ease;
   transition: all 750ms ease;
 }
 ul.sharing .icon:hover, ul.sharing .icon:focus {

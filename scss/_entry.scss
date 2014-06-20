@@ -1,20 +1,29 @@
 article.single {
     margin: 1rem auto;
-    max-width: 38rem;
+    max-width: 40rem;
     padding: 1.25rem;
     header {
         padding: 1rem .25rem;
-        text-align: center;
         text-transform: uppercase;
+        border-bottom: 5px solid $liteblue;
+        margin-bottom: 1.5rem;
         h1 {
-            font: 600 1.5rem/1.4 "kulturista-web", serif;
+            font: 400 1.75rem/1.4 "kulturista-web", serif;
             color: $blue;
             letter-spacing: 1px;
         }
-        .meta {
-            padding: .5rem .25rem;
-            letter-spacing: 2px;
+        h2 {
+          font-weight: 400;
+          font-size: 1.25rem;
+          letter-spacing: 2px;
+          color: rgba(#484848, .75);
         }
+        .meta {
+            padding: .5rem 0;
+            letter-spacing: 2px;
+            color: $blue;
+        }
+
     }
     p {
         font-size: 1.125rem;
