@@ -1,10 +1,12 @@
 ---
 layout: post
 title:  "On Heart Conditions, Systems of Violence, and Fear"
+subtitle: "Or This is When my Anabaptist Comes Out"
 date:   2014-06-12
 comments: true
 ---
 
+(This is when my Anabaptist tendencies come out.)
 
 Some well-meaning people point at the role of guns in the most recent shootings, and say something like, "it's not a gun problem, it's a heart problem. If you take guns away, something else will be used to commit [insert grievous & violent act]. And even if legislations on guns became more restrictive, criminals still find ways around those laws. We need to be able to protect ourselves against criminals! Second Amendment!"
 
@@ -26,7 +28,7 @@ Most people are afraid of mental illness. They are afraid and ashamed, and the p
 
 Racism stems from a fear of different people, right?
 
-And misogyny & patriarchy stem from a fear of power-loss. I daresay that Mr. Rodgers was extremely afraid of being alone, too.
+And misogyny/patriarchy stem from a fear of power-loss. I daresay that Mr. Rodgers was extremely afraid of being alone, too.
 
 Still, there are those afraid of losing liberty. What are you most afraid of? Losing your American citizenship/identity, or your Kingdom citizenship? They're not the same. In fact, they are completely separate.
 
