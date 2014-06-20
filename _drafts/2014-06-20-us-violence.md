@@ -1,12 +1,11 @@
 ---
 layout: post
-title:  "On Heart Conditions, Systems of Violence, and Fear"
-subtitle: "Or This is When my Anabaptist Comes Out"
-date:   2014-06-12
+title:  "On Systems of Violence & Fear"
+subtitle: "Or, This is When my Inner Anabaptist Comes Out"
+date:   2014-06-20
 comments: true
 ---
 
-(This is when my Anabaptist tendencies come out.)
 
 Some well-meaning people point at the role of guns in the most recent shootings, and say something like, "it's not a gun problem, it's a heart problem. If you take guns away, something else will be used to commit [insert grievous & violent act]. And even if legislations on guns became more restrictive, criminals still find ways around those laws. We need to be able to protect ourselves against criminals! Second Amendment!"
 
