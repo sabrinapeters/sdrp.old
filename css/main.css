@@ -1047,3 +1047,16 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
   color: white;
   outline: none;
 }
+
+.archives {
+  max-width: 38rem !important;
+  margin: 0 auto !important;
+  float: none !important;
+}
+.archives h2.year {
+  color: #5b87a4;
+  font-size: 2rem;
+}
+.archives ul {
+  list-style: none;
+}
