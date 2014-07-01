@@ -134,7 +134,7 @@ img.aboutdefault {
     -webkit-appearance: none;
     background: none;
     border: 2px solid $blue;
-    border-radius: 1.5rem;
+    border-radius: 1.25rem;
     font: 400 100%/1.4 "freight-sans-pro", sans-serif;
     width: 10rem;
     &:hover {
@@ -145,5 +145,16 @@ img.aboutdefault {
     &:focus {
         background: $blue;
         outline: none;
+    }
+    &--archives {
+        display: block;
+        width: 15rem !important;
+        border: 2px solid $blue !important;
+        padding: 1rem 2rem !important;
+        margin: 2rem 0 1rem;
+        transition: background 500ms ease;
+        &:hover {
+            color: white !important;
+        }
     }
 }

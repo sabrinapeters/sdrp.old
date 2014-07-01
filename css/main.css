@@ -778,7 +778,7 @@ img.aboutdefault {
   -webkit-appearance: none;
   background: none;
   border: 2px solid #85b3c1;
-  border-radius: 1.5rem;
+  border-radius: 1.25rem;
   font: 400 100%/1.4 "freight-sans-pro", sans-serif;
   width: 10rem;
 }
@@ -790,6 +790,17 @@ img.aboutdefault {
 .btn:focus, input[type=submit]:focus {
   background: #85b3c1;
   outline: none;
+}
+.btn--archives {
+  display: block;
+  width: 15rem !important;
+  border: 2px solid #85b3c1 !important;
+  padding: 1rem 2rem !important;
+  margin: 2rem 0 1rem;
+  transition: background 500ms ease;
+}
+.btn--archives:hover {
+  color: white !important;
 }
 
 .header {
@@ -846,8 +857,12 @@ img.aboutdefault {
 }
 
 .footer {
-  padding: 1rem;
   text-align: center;
+  color: #484848;
+}
+.footer .container {
+  border-top: 1px solid #85b3c1;
+  padding: 2rem 1rem;
 }
 .footer a {
   color: #85b3c1;
