@@ -10,8 +10,6 @@ Everybody knows I love libraries - hey, that's why I'm even working in one! But 
 
 ![](/img/mary-oliver.jpg)
 
-
-
 from now until forever and ever  
 i will not borrow those  
 poetry books  
