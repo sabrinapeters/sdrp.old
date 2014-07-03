@@ -5,6 +5,8 @@ date: 2014-06-02
 comments: true
 ---
 
+![](/img/MH.jpg)
+
 It's easy to get cynical about the church these days (much less humanity!), and going to seminary didn't help any. So, word to the wise, if you have tendencies toward pessimism, don't go to seminary.
 
 Ahem. Moving on.
