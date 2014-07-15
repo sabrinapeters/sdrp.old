@@ -17,7 +17,7 @@ I am not the Holy Spirit. There's only one of those.
 
 I don't have to be certain that my words are weighty and convicting. I don't have to worry about bringing enlightenment. I don't have to worry about causing trouble. I don't need to feel rushed. I don't have to be perfect. I just have to put my words out there.
 
-And then there's this constant, unhealthy habit of comparison. I want to compete, but I hold back, letting my little jealousies harbor and breed. Wanting someone else's life never does anyone real good. Sure, jealousies may reveal desires to be pursued and capabilities to nourish, but trying to actually _be someone else_ does no good at all. It's a denial of uniqueness.
+And then there's this constant, unhealthy habit of comparison. I want to compete, but I hold back, letting my little jealousies harbor and breed. Wanting someone else's life never does anyone real good. Sure, jealousies may reveal desires to be pursued and capabilities to nourish, but trying to actually _be someone else_ does no good at all. It's a denial of uniqueness. It denies creativity.
 
 I want to feel what I want and want what I feel and think what I think and chase after all those things, for myself. I know I am capable of things. Maybe I fear I am too capable, so I try to numb those feelings of capability and chase after things that other people have. I don't think I'm the only one.
 
