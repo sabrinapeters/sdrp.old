@@ -1,6 +1,6 @@
 ---
 layout: post
-title: the writing life
+title: The Writing Life
 date: 2014-07-15
 comments: true
 ---
