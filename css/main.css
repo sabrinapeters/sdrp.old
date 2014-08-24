@@ -545,7 +545,7 @@
 }
 
 html {
-  font: 400 100%/1.4 "freight-sans-pro", sans-serif;
+  font: 400 100%/1.4 "Whitney SSm A", "Whitney SSm B", "Lucida Grande", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -1075,3 +1075,5 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
 .archives ul {
   list-style: none;
 }
+
+/*# sourceMappingURL=main.css.map */

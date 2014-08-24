@@ -1,5 +1,4 @@
 * {
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -544,7 +543,7 @@
 }
 
 html {
-  font: 400 100%/1.4 "freight-sans-pro", sans-serif;
+  font: 400 100%/1.4 "Whitney SSm A", "Whitney SSm B", "Lucida Grande", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -566,7 +565,6 @@ h1, h2, h3, h4, h5, h6, li {
 * {
   margin: 0;
   padding: 0;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -797,7 +795,6 @@ img.aboutdefault {
   border: 2px solid #85b3c1 !important;
   padding: 1rem 2rem !important;
   margin: 2rem 0 1rem;
-  -webkit-transition: background 500ms ease;
   transition: background 500ms ease;
 }
 .btn--archives:hover {
@@ -1039,7 +1036,6 @@ ul.sharing .icon {
   height: 2.5rem;
   fill: #85b3c1;
   background: none;
-  -webkit-transition: all 750ms ease;
   transition: all 750ms ease;
 }
 ul.sharing .icon:hover, ul.sharing .icon:focus {
@@ -1077,3 +1073,5 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
 .archives ul {
   list-style: none;
 }
+
+/*# sourceMappingURL=main.prefixed.css.map */
