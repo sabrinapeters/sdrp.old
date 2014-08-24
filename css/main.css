@@ -599,19 +599,18 @@ html {
   background: #85b3c1;
   padding: 4rem 0;
   width: 100%;
-  text-transform: uppercase;
   text-align: center;
 }
 .hero h1 {
-  letter-spacing: 4px;
-  font: 600 2.5rem/1.4 "Sentinel SSm A", "Sentinel SSm B", serif;
+  font: 400 2.5rem/1.4 "Sentinel SSm A", "Sentinel SSm B", Georgia, serif;
   color: #deecf0;
 }
 .hero h2 {
   font-size: 1.25rem;
-  font-weight: 600;
+  font-weight: 400;
   color: #eeeded;
   letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 .aboutinfo {
@@ -685,7 +684,6 @@ html {
   display: block;
   margin-right: 2.35765%;
   width: 74.41059%;
-  text-transform: uppercase;
   margin-bottom: 1.25rem;
 }
 .frontposts .frontpostindex:last-child {
@@ -714,8 +712,8 @@ html {
   }
 }
 .frontposts .frontpostindex h3 {
-  font: 400 1.375rem/1.5 "Sentinel SSm A", "Sentinel SSm B", serif;
-  letter-spacing: 2px;
+  font: 400 1.375rem/1.5 "Sentinel SSm A", "Sentinel SSm B", Georgia, serif;
+  letter-spacing: 1px;
   margin-bottom: .5rem;
 }
 .frontposts .frontpostindex a {
@@ -730,6 +728,7 @@ html {
   padding-top: .375rem;
   color: #85b3c1;
   letter-spacing: 4px;
+  text-transform: uppercase;
 }
 .frontposts .sidebar {
   float: left;
@@ -769,6 +768,8 @@ img.aboutdefault {
   padding: .5rem;
   border: 1px solid white;
   max-width: 100%;
+  margin: 0 auto;
+  display: block;
 }
 
 .btn, input[type=submit] {
@@ -779,7 +780,7 @@ img.aboutdefault {
   background: none;
   border: 2px solid #85b3c1;
   border-radius: 1.25rem;
-  font: 400 100%/1.4 "Whitney SSm A", "Whitney SSm B", Verdana, sans-serif, sans-serif;
+  font: 400 100%/1.4 "Whitney SSm A", "Whitney SSm B", Verdana, sans-serif;
   width: 10rem;
 }
 .btn:hover, input[type=submit]:hover {
@@ -813,9 +814,7 @@ img.aboutdefault {
   float: left;
 }
 .logo h1 {
-  font-weight: 900;
-  font-size: 3rem;
-  line-height: 1;
+  font: italic 700 3rem/1 "Sentinel SSm A", "Sentinel SSm B", Georgia, serif;
 }
 .logo .hide {
   display: none;
@@ -882,13 +881,12 @@ article.single {
 article.single header {
   padding: 1rem .25rem;
   text-transform: uppercase;
-  border-bottom: 5px solid #90c0ce;
   margin-bottom: 1.5rem;
 }
 article.single header h1 {
-  font: 400 1.75rem/1.4 "Sentinel SSm A", "Sentinel SSm B", serif;
+  font: 700 2rem/1.4 "Sentinel SSm A", "Sentinel SSm B", Georgia, serif;
+  text-transform: none;
   color: #85b3c1;
-  letter-spacing: 1px;
 }
 article.single header h2 {
   font-weight: 400;
@@ -901,8 +899,16 @@ article.single header .meta {
   letter-spacing: 2px;
   color: #85b3c1;
 }
+article.single header::after {
+  display: block;
+  content: "";
+  margin-top: 1rem;
+  max-width: 6rem;
+  height: 2px;
+  background: #90c0ce;
+}
 article.single p {
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 1.7;
 }
 article.single a {
@@ -1052,7 +1058,7 @@ input[type="text"], input[type="email"], textarea {
   background: none;
   border: 0;
   border-bottom: 2px solid #85b3c1;
-  font: 400 100%/1.4 "freight-sans-pro", sans-serif;
+  font: 400 100%/1.4 "Whitney SSm A", "Whitney SSm B", Verdana, sans-serif;
   padding: .25rem .25rem .5rem;
   width: 100%;
   color: #85b3c1;

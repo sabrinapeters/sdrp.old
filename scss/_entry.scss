@@ -5,12 +5,12 @@ article.single {
     header {
         padding: 1rem .25rem;
         text-transform: uppercase;
-        border-bottom: 5px solid $liteblue;
+        // border-bottom: 1px solid $liteblue;
         margin-bottom: 1.5rem;
         h1 {
-            font: 400 1.75rem/1.4 $serif, serif;
+            font: 700 2rem/1.4 $serif;
+            text-transform: none;
             color: $blue;
-            letter-spacing: 1px;
         }
         h2 {
           font-weight: 400;
@@ -23,10 +23,18 @@ article.single {
             letter-spacing: 2px;
             color: $blue;
         }
+        &::after {
+            display: block;
+            content: "";
+            margin-top: 1rem;
+            max-width: 6rem;
+            height: 2px;
+            background: $liteblue;
+        }
 
     }
     p {
-        font-size: 1.125rem;
+        font-size: 1rem;
         line-height: 1.7;
     }
     a {

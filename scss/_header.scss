@@ -7,9 +7,7 @@
 .logo {
     float: left;
     h1 {
-        font-weight: 900;
-        font-size: 3rem;
-        line-height: 1;
+        font: italic 700 3rem/1 $serif;
     }
     .hide {
         display: none;

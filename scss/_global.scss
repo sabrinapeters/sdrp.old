@@ -24,18 +24,18 @@ html {
     background: $blue;
     padding: 4rem 0;
     width: 100%;
-    text-transform: uppercase;
     text-align: center;
     h1 {
-        letter-spacing: 4px;
-        font: 600 2.5rem/1.4 $serif, serif;
+        // letter-spacing: 1px;
+        font: 400 2.5rem/1.4 $serif;
         color: $paleblue;
     }
     h2 {
         font-size: 1.25rem;
-        font-weight: 600;
+        font-weight: 400;
         color: $bkg;
         letter-spacing: 3px;
+        text-transform: uppercase;
     }
 }
 
@@ -79,7 +79,6 @@ html {
     }
     .frontpostindex {
         @include span-columns(9);
-        text-transform: uppercase;
         margin-bottom: 1.25rem;
         @include media($tablet) {
             @include span-columns(8);
@@ -88,8 +87,8 @@ html {
             @include span-columns(6);
         }
         h3 {
-            font: 400 1.375rem/1.5 $serif, serif;
-            letter-spacing: 2px;
+            font: 400 1.375rem/1.5 $serif;
+            letter-spacing: 1px;
             margin-bottom: .5rem;
         }
         a {
@@ -105,6 +104,7 @@ html {
             padding-top: .375rem;
             color: $blue;
             letter-spacing: 4px;
+            text-transform: uppercase;
         }
 
     }
@@ -125,6 +125,8 @@ img.aboutdefault {
     padding: .5rem;
     border: 1px solid white;
     max-width: 100%;
+    margin: 0 auto;
+    display: block;
 }
 
 .btn {
@@ -135,7 +137,7 @@ img.aboutdefault {
     background: none;
     border: 2px solid $blue;
     border-radius: 1.25rem;
-    font: 400 100%/1.4 $sans-serif, sans-serif;
+    font: 400 100%/1.4 $sans-serif;
     width: 10rem;
     &:hover {
         color: white;
