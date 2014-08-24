@@ -545,7 +545,7 @@
 }
 
 html {
-  font: 400 100%/1.4 "Whitney SSm A", "Whitney SSm B", "Lucida Grande", sans-serif;
+  font: 400 100%/1.4 "Whitney SSm A", "Whitney SSm B", Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -604,7 +604,7 @@ html {
 }
 .hero h1 {
   letter-spacing: 4px;
-  font: 600 2.5rem/1.4 "kulturista-web", serif;
+  font: 600 2.5rem/1.4 "Sentinel SSm A", "Sentinel SSm B", serif;
   color: #deecf0;
 }
 .hero h2 {
@@ -714,7 +714,7 @@ html {
   }
 }
 .frontposts .frontpostindex h3 {
-  font: 400 1.375rem/1.5 "kulturista-web", serif;
+  font: 400 1.375rem/1.5 "Sentinel SSm A", "Sentinel SSm B", serif;
   letter-spacing: 2px;
   margin-bottom: .5rem;
 }
@@ -779,7 +779,7 @@ img.aboutdefault {
   background: none;
   border: 2px solid #85b3c1;
   border-radius: 1.25rem;
-  font: 400 100%/1.4 "freight-sans-pro", sans-serif;
+  font: 400 100%/1.4 "Whitney SSm A", "Whitney SSm B", Verdana, sans-serif, sans-serif;
   width: 10rem;
 }
 .btn:hover, input[type=submit]:hover {
@@ -886,7 +886,7 @@ article.single header {
   margin-bottom: 1.5rem;
 }
 article.single header h1 {
-  font: 400 1.75rem/1.4 "kulturista-web", serif;
+  font: 400 1.75rem/1.4 "Sentinel SSm A", "Sentinel SSm B", serif;
   color: #85b3c1;
   letter-spacing: 1px;
 }
