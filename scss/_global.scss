@@ -128,7 +128,21 @@ img.aboutdefault {
     margin: 0 auto;
     display: block;
 }
-
+.bttn {
+    margin-left: 0;
+    margin-top: 2rem;
+    display: block;
+    transition: all 375ms linear;
+    font: italic 400 1.5rem/1 $serif;
+    border-bottom: 0 !important;
+    &:hover, &:focus {
+        margin-left: .5rem;
+    }
+    &::after {
+        content: "\2192";
+        margin-left: 1rem;
+    }
+}
 .btn {
     color: $blue;
     padding: 1rem .5rem;
