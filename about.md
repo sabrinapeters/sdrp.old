@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /about/
 ---
-I'm an MLIS student [(University of Washington, incoming September 2014)](http://ischool.uw.edu/academics/mlis), bibliophile, and wife. I am also an aspiring agitator.
+I'm a MLIS student [(University of Washington, incoming September 2014)](http://ischool.uw.edu/academics/mlis), bibliophile, and wife. I am also an aspiring agitator.
 
 While I love empowering individuals with the freedom that knowledge brings, my first love has always been research. Curiosity sparks into a flame of questions that will not be quenched until the answers are found. I will sleuth until all the puzzle pieces are found and can be put together.
 
