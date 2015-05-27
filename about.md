@@ -7,7 +7,7 @@ I'm an MLIS student [(University of Washington, incoming September 2014)](http:/
 
 While I love empowering individuals with the freedom that knowledge brings, my first love has always been research. Curiosity sparks into a flame of questions that will not be quenched until the answers are found. I will sleuth until all the puzzle pieces are found and can be put together.
 
-They say that those who write must also be readers. I am a reader, yes, but a lazy writer, if at all. Most of my thoughts are connected to worldview, theology, and why people do, say, and think they way they do, say, and think things. My Master of Divinity may not have placed me in a formal position of church ministry, but the training I received in seminary will always influence my thinking.
+They say that those who write must also be readers. I am a reader, yes, but a lazy writer, if at all. Most of my thoughts are connected to worldview, theology, and why people do, say, and think they way they do, say, and think things. I am particularly grieved at injustices and abuse within the universal Church. My Master of Divinity may not have placed me in a formal position of church ministry, but the training I received in seminary will always influence my thinking. 
 
 That being said, what I write is not always related to theology & worldview & books. Sometimes I think I can write short stories, so I try. And sometimes poetry.
 
