@@ -5,6 +5,9 @@ date: 2015-07-02
 comments: true
 published: true
 ---
+*photo by Beverly & Pack, via [Flickr](https://www.flickr.com/photos/walkadog/3366563115)*
+![tattered flag](/img/tatteredflag.jpg "Patriotic Waving Tattered Shredding American Flag, Old Glory, The Red White and Blue, Stars & Stripes, That Ragged Old Flag")
+
 
 
 *I pledge allegiance to the flag*
