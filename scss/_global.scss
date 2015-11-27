@@ -1,176 +1,28 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    background: $bkg;
+  background: $bkg;
 }
 
 .clearfix {
-    content: "";
-    clear: both;
-    display: block;
+  content: "";
+  clear: both;
+  display: block;
 }
+
 .hide {
-    display: none;
+  display: none;
 }
 .container {
-    @include outer-container;
-}
-
-.hero {
-    background: $blue;
-    padding: 4rem 0;
-    width: 100%;
-    text-align: center;
-    h1 {
-        // letter-spacing: 1px;
-        font: 400 2.5rem/1.4 $serif;
-        color: $paleblue;
-    }
-    h2 {
-        font-size: 1.25rem;
-        font-weight: 400;
-        color: $bkg;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-    }
-}
-
-.aboutinfo {
-    padding: 2rem 1rem;
-    background: $liteblue;
-    color: white;
-    .container {
-        max-width: 38rem;
-    }
-    p {
-        color: white;
-        font-size: 1.125rem;
-    }
-    div.left {
-        @include span-columns(3);
-        padding: .5rem;
-        @include media($mobile) {
-            @include span-columns(6);
-            img {
-                max-width: 5rem;
-                margin: 1rem auto;
-                display: block;
-            }
-        }
-    }
-    div.right {
-        @include span-columns(9);
-        @include media($mobile) {
-            @include span-columns(6);
-        }
-    }
+  @include outer-container;
 }
 
 
-.frontposts {
-    margin-top: 2rem;
-    padding: .5rem 1rem;
-    .frontpost {
-        margin-bottom: 1rem;
-    }
-    .frontpostindex {
-        @include span-columns(9);
-        margin-bottom: 1.25rem;
-        @include media($tablet) {
-            @include span-columns(8);
-        }
-        @include media($mobile) {
-            @include span-columns(6);
-        }
-        h3 {
-            font: 400 1.375rem/1.5 $serif;
-            letter-spacing: 1px;
-            margin-bottom: .5rem;
-        }
-        a {
-            color: $blue;
-            padding-bottom: .125rem;
-            border-bottom: 2px solid rgba(#a3c3cd,.5);
-            // box-shadow: inset 0 -1px 0 rgba(#a3c3cd,.5);
-            &:hover {
-                color: rgba($liteblue, .5);
-            }
-        }
-        .meta {
-            padding-top: .375rem;
-            color: $blue;
-            letter-spacing: 4px;
-            text-transform: uppercase;
-        }
 
-    }
-    .sidebar {
-        @include span-columns(3);
-        @include media($tablet) {
-            @include span-columns(8);
-            margin-bottom: 1rem;
-        }
-        @include media($mobile) {
-            @include span-columns(6);
-        }
-    }
-}
 
-img.aboutdefault {
-    border-radius: 100%;
-    padding: .5rem;
-    border: 1px solid white;
-    max-width: 100%;
-    margin: 0 auto;
-    display: block;
-}
-.bttn {
-    margin-left: 0;
-    margin-top: 2rem;
-    display: block;
-    transition: all 375ms linear;
-    font: italic 400 1.5rem/1 $serif;
-    border-bottom: 0 !important;
-    &:hover, &:focus {
-        margin-left: .5rem;
-    }
-    &::after {
-        content: "\2192";
-        margin-left: 1rem;
-    }
-}
-.btn {
-    color: $blue;
-    padding: 1rem .5rem;
-    text-align: center;
-    -webkit-appearance: none;
-    background: none;
-    border: 2px solid $blue;
-    border-radius: 1.25rem;
-    font: 400 100%/1.4 $sans-serif;
-    width: 10rem;
-    &:hover {
-        color: white;
-        background: $liteblue;
-        border-color: $blue;
-    }
-    &:focus {
-        background: $blue;
-        outline: none;
-    }
-    &--archives {
-        display: block;
-        width: 15rem !important;
-        border: 2px solid $blue !important;
-        padding: 1rem 2rem !important;
-        margin: 2rem 0 1rem;
-        transition: background 500ms ease;
-        &:hover {
-            color: white !important;
-        }
-    }
-}
+
+
