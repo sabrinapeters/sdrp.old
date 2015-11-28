@@ -1,0 +1,19 @@
+.hero {
+  background: $blue;
+  padding: 4rem 0;
+  width: 100%;
+  text-align: center;
+}
+.hero h1 {
+  font: 400 2.5rem/1.4 $serif;
+  color: $paleblue;
+}
+
+.hero h2 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: $bkg;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
