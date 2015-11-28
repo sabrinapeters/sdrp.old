@@ -30,7 +30,7 @@
   "main": "Gulpfile.js",
   "dependencies": {},
   "scripts": {
-    "test": "tap test/*.js"
+    "start": "gulp"
   },
   "license": "MIT"
 }
