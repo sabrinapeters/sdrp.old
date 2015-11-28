@@ -12,7 +12,7 @@ var bourbon      = require('node-bourbon').includePaths;
 
 var paths = {
   sass: './assets/stylesheets/',
-  images: 'assets/images/'
+  images: 'assets/images/',
   dist: './dist/'
 }
 
