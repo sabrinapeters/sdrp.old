@@ -8,6 +8,12 @@ $bkg: #eeeded;
 $serif: 'Sentinel SSm A', 'Sentinel SSm B', Georgia, serif;
 $sans-serif: 'Whitney SSm A', 'Whitney SSm B', Verdana, sans-serif;
 
+
+// Spacing
+$base__spacing: 1rem;
+
+
+
 // media queries
 $tablet: new-breakpoint(max-width 48rem 8);
 $mobile: new-breakpoint(max-width 31.250rem 6);
