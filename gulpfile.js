@@ -32,7 +32,8 @@ function images() {
       pretty: true
     }))
     .pipe(gulp.dest(paths.dist + 'img/'))
-    .pipe(gulp.dest('_site/dist/img/'));
+    .pipe(gulp.dest('_site/dist/img/'))
+    .pipe(bs.stream());
 }
 
 function styles() {
@@ -53,8 +54,9 @@ function styles() {
       pretty: true
     }))
     .pipe(gulp.dest(paths.dist + 'stylesheets/'))
-    .pipe(gulp.dest('_site/dist/stylesheets/'));
-};
+    .pipe(gulp.dest('_site/dist/stylesheets/'))
+    .pipe(bs.stream());   
+}
 
 function scripts() {
   return gulp.src(paths.js)
@@ -65,10 +67,6 @@ function scripts() {
 
 function jk(done) {
   return cp.spawn('jekyll', ['build'], {stdio: 'inherit'}).on('close', done);
-}
-
-
-function watch() {
 }
 
 function refresh() {
@@ -93,10 +91,11 @@ gulp.task('styles', styles);
 gulp.task('clean', clean);
 gulp.task('jekyll', jk);
 gulp.task('re-jekyll', ['jekyll'], refresh);
+
 gulp.task('watch', function(){
-  gulp.watch(paths.sass, 'styles');
-  gulp.watch(paths.images, 'images');
-  gulp.watch(['*.html', '_layouts/*.html', '_posts/*'], ['re-jekyll']);
+  gulp.watch(paths.sass, ['styles']);
+  gulp.watch(paths.images, ['images']);
+  gulp.watch(['*.html', '_includes/*.html', '_layouts/*.html', '_posts/*'], ['re-jekyll']);
 });
 
 gulp.task('connect', ['styles', 'jekyll'], connect);
