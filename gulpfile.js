@@ -95,7 +95,7 @@ gulp.task('re-jekyll', ['jekyll'], refresh);
 gulp.task('watch', function(){
   gulp.watch(paths.sass, ['styles']);
   gulp.watch(paths.images, ['images']);
-  gulp.watch(['*.html', '_includes/*.html', '_layouts/*.html', '_posts/*'], ['re-jekyll']);
+  gulp.watch(['*.html', './*.md', '_includes/*.html', '_layouts/*.html', '_posts/*'], ['re-jekyll']);
 });
 
 gulp.task('connect', ['styles', 'jekyll'], connect);
