@@ -1,6 +1,7 @@
 var gulp         = require('gulp');
 var sass         = require('gulp-sass');
-var bs           = require('browser-sync').create;
+var imagemin     = require('gulp-imagemin');
+var bs           = require('browser-sync').create();
 var cp           = require('child_process');
 var postcss      = require('gulp-postcss');
 var autoprefixer = require('autoprefixer');
@@ -11,21 +12,36 @@ var neat         = require('node-neat').includePaths;
 var bourbon      = require('node-bourbon').includePaths;
 
 var paths = {
-  sass: './assets/stylesheets/',
-  images: 'assets/images/',
+  sass: './assets/stylesheets/**/*.scss',
+  images: './assets/images/*',
   dist: './dist/'
+}
+
+function images() {
+  return gulp.src(paths.images)
+    .pipe(imagemin({
+      progressive: true,
+    }))
+    .pipe(size({
+      showFiles: true,
+      gzip: true,
+      pretty: true
+    }))
+    .pipe(gulp.dest(paths.dist + 'images/'))
+    .pipe(gulp.dest('_site/img/'))
 }
 
 
 function styles() {
-  var processors = {
+  var processors = [
     autoprefixer({browsers: ['last 2 version']}),
     not, 
     cssnext
-  }
+  ];
+
   return gulp.src(paths.sass)
     .pipe(sass({
-      includePaths: [bourbon, neat]
+      includePaths: neat
     }))
     .pipe(postcss(processors))
     .pipe(size({
@@ -33,25 +49,30 @@ function styles() {
       gzip: true,
       pretty: true
     }))
-    .pipe(bs.stream());
-    .pipe(gulp.dest([paths.dist + 'stylesheets/', '_site/dist/']))
+    .pipe(gulp.dest(paths.dist + 'stylesheets/'))
+    .pipe(gulp.dest('_site/dist/'));
 };
 
-gulp.task('styles', styles());
+gulp.task('images', images);
+gulp.task('styles', styles);
 
-gulp.task('jekyll-build', function (done) {
+gulp.task('jekyll', function (done) {
   return cp.spawn('jekyll', ['build'], {stdio: 'inherit'}).on('close', done);
 });
 
-gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
+gulp.task('re-jekyll', ['jekyll'], function () {
   bs.reload();
 });
 
 
-gulp.task('connect', ['styles', 'jekyll-build'], function() {
+gulp.task('connect', ['styles', 'jekyll'], function() {
   bs.init({
     server: {
       baseDir: '_site'
     }
   });
 });
+
+
+gulp.task('build', ['images', 'styles', 'jekyll']);
+gulp.task('defautl', ['build', 'watch', 'connect']);
