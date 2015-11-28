@@ -2,33 +2,30 @@ Sabrina's Guide to Blogging with Jekyll
 ---
 This is a handy guide for Sabrina to run her blog locally and update and maintain it.
 
-## Running Grunt
+## Running Gulp
 
-## Serving Jekyll
-To run your site locally, go to the command line change directory to your project and run the command `$ jekyll serve`
+Make sure you have the latest version of Node.js installed, `brew install node`. If the command `brew` isn't found install [Homebrew](http://brew.sh/).
 
-```
-$ cd Documents/sabrina-jekyll/
-$ jekyll serve -w
-```
-
-To preview your drafts running your local project the following command instead of `$ jekyll serve -w`:
+Next we need to have gulp installed:
 
 ```
-$ jekyll serve --drafts -w
+$ npm install -g gulpjs/gulp#4.0 gulp-cli
 ```
 
-Navigate to the prompted address in a web browser.
+Now we run install on the project directory:
+
+```
+$ npm install && npm start
+```
+
+### Serving Jekyll
+
+Jekyll is called for rebuilding from Gulp directly. Make sure you have the latest version: `sudo gem install jekyll`
 
 ## Pushing to Github
-
-
-
 ## Adding New Posts & Pages
 
 
 ## To-Do
 - [ ] Disqus `max-width: 100%`
 - [ ] Navigation
-- [ ] Archives
-- [ ] Asset directory
