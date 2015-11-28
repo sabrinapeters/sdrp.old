@@ -11,11 +11,11 @@ To run your site locally, go to the command line change directory to your projec
 $ cd Documents/sabrina-jekyll/
 $ jekyll serve -w
 ```
+
 To preview your drafts running your local project the following command instead of `$ jekyll serve -w`:
 
 ```
 $ jekyll serve --drafts -w
-
 ```
 
 Navigate to the prompted address in a web browser.
