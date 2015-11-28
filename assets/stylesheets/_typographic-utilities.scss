@@ -3,6 +3,12 @@
 .caps  { text-transform: uppercase; }
 .lower { text-transform: lowercase; }
 
+/* Families */
+
+.f-serif { font-family: $serif; }
+.f-ss    { font-family: $sans-serif; }
+
+
 /* Weights */
 
 .w-100 { font-weight: 100; }
