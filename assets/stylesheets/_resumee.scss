@@ -1,6 +1,13 @@
-.resumee__hl-sub {
+.resumee__hl {
   color: $blue;
 }
+
+.resumee__meta {
+  color: rgba(#484848, .75); 
+  font-size: .875rem;
+}
+
+.resumee__hl-sub { color: $blue; }
 
 .resumee__hl-sub::after {
   content: "";
