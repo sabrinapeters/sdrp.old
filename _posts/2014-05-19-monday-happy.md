@@ -13,16 +13,16 @@ On Saturday, after I supported some local farms (found eggs, strawberries, apple
 
 
 At the rate I'm going, I will have at least one new plant every week.
-![](/img/monday-flowers.jpg)
+![](/dist/img/monday-flowers.jpg)
 
 Flowers in hand, we headed over to the truly Phantastic Books and picked up these lovelies.
-![](/img/monday-books.jpg)
+![](/dist/img/monday-books.jpg)
 
 And, this Monday morning, here are a few of my favorite/happy things.
 
-![](/img/monday-plants.jpg)
+![](/dist/img/monday-plants.jpg)
 
-![](/img/monday-mugs.jpg)
+![](/dist/img/monday-mugs.jpg)
 (My "happy mugs." C takes black coffee; I'm enjoying green tea.)
 
 What brings you happiness this Monday?
