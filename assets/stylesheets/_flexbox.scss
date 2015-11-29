@@ -1,0 +1,21 @@
+.flex__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content__block {
+  min-height: 10.25rem;
+}
+
+.content__block p {
+  max-width: 48rem;
+}
+.flex__module-lg {
+  max-width: 100%;
+  flex: 1 1 66rem;
+}
+
+.flex__module {
+  max-width: 100%;
+  flex: 0 1 32rem;
+}

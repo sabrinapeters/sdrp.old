@@ -1,0 +1,33 @@
+.table {
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th { padding: 0; }
+
+.table { width: 100%; }
+
+.table__heading { display: none; }
+.table__content { display: block; }
+
+.table__content:before {
+  content: attr(data-heading);
+  display: inline-block;
+  width: 7rem;
+  margin-right: 1rem;
+  color: $liteblue;
+  font-size: .625rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+
+.table__row:not(:last-of-type) {
+  border-bottom: 1px solid $blue; 
+}
+
