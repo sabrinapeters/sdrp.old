@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Class Project 
-subtitle: "Desiging a Workshop"
+title: Class Project
+subtitle: "Designing a Workshop"
 date: 2015-11-29
 comments: true
 published: true
