@@ -1,14 +1,12 @@
 ---
 layout: post
-title: Class Project I: Designing a Workshop
+title: Class Project: Designing a Workshop
 date: 2015-11-29
 comments: true
 published: true
 ---
 
 Well, here I am after the summer and most of autumn, with a new blog post! It's not my usual fare, but rather a repository for what I'm sure will be the first of several school projects. So, if you like to listen to me talk, take a gander at my presentation. If you'd like to learn about my workshop in more depth, take a look at the accompanying documents.
-
---
 
 _If you're my peer reviewer: hi! Welcome to my site. For the purpose of this assignment, I thought it would be easier just to insert a blog post on my existing site, rather than create another separate repository._
 
