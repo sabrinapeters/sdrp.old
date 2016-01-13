@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-![Alec Hardy and Ellie Miller on the beach](/assets/img/broadchurch.jpg "Broadchurch")
+![Alec Hardy and Ellie Miller on the beach](/assets/images/broadchurch.jpg)
 _via The Guardian_
 
 I got hooked on _[Jessica Jones]_(http://www.imdb.com/title/tt2357547/) over break, after I rewatched _Sherlock (BBC)_ for the fourth time. After I finished watching it, I scrolled through Netflix's British TV recommendations, and noticed _[Broadchurch]_(http://www.imdb.com/title/tt2249364/) (probably because of the David Tennant connection!). I thought, Eh, why not, and pretty much couldn't quit until I finished.
