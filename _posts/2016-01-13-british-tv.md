@@ -14,7 +14,7 @@ I got hooked on _[Jessica Jones](http://www.imdb.com/title/tt2357547/)_ over bre
 
 I'm a sucker for a good story; once immersed into the plot, through page or screen, I have trouble reemerging until its conclusion. I've noticed lately that British television has been a lot more appealing to me than American television, so I started to make a list of reasons why.
 
-(Note: I don't pretend to be a screen critic, so this is not very explicative by any means. Even pretending to would mean ditching life as I currently know it, in order to watch and rewatch films and shows so I could write about them, and who would want that? [Who am I kidding - that sounds awesome!])
+(Note: I don't pretend to be a screen critic, so this is not very explicative by any means. Even pretending to be a critic would mean ditching life as I currently know it, in order to watch and rewatch films and shows so I could write about them, and who would want that? [Who am I kidding - that sounds awesome!])
 
 Here's my list, in no particular order, with a few short explanations.
 
