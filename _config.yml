@@ -4,7 +4,7 @@ email: brideeray@gmail.com
 description: "I'm a MLIS student, librarian-in-training, and aspiring agitator for good."
 subtitle: "Librarian-in-Training, <br/>Avid Reader, Wife, &amp; Aspiring Agitator"
 baseurl: ""
-url: "http://sabrinapeters.net"
+url: "https://sabrinapeters.net"
 
 exclude: ["node_modules", "package.json", "Gruntfile.js"]
 
