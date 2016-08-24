@@ -43,7 +43,10 @@ const styles = () => {
       }
     }),
     papply,
-    // uncss({ html: ['./_site/**/*.html'] }),
+    uncss({
+      html: ['./_site/**/*.html'],
+      ignore: ['.c-entry', '.c-entry *']
+    }),
     nano({
       autoprefixer: false,
       mergeRules: false,

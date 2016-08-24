@@ -1,17 +1,5 @@
 .c-avatar {
-  border-radius: 100%;
-  padding: .5rem;
-  max-width: 100%;
-  margin: 0 auto;
-  display: block;
-}
-
-.c-avatar--lg {
-  width: 16rem;
-  height: 16rem;
-}
-
-.c-avatar--md {
+  border-radius: 50%;
   width: 12rem;
   height: 12rem;
 }
