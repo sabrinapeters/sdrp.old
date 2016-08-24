@@ -1,14 +1,21 @@
 ---
 layout: default
 ---
-<article class="post single">
+<article class="o-container--md u-mxa u-px3 single">
 
-  <header class="entry-header">
-    <h1 class="entry-title">{{ page.title }}</h1>
+  <header class="o-container--sm u-mxa entry-header u-py4">
+    {% if page.avatar == true %}
+      {% include avatar.html size='md' %}
+    {% endif %}
+    <h1 class="entry-title h3">{{ page.title }}</h1>
+    {% if page.subtitle %}
+      <h2 class="h6 u-w300 u-lt-3 u-caps u-sans u-mb3">{{ page.subtitle }}</h2>
+    {% endif %}
+    <time class="small u-caps u-lt-3">{{ page.date | date: "%B %-d, %Y" }}</time>
   </header>
 
-  <section class="entry-content">
-  {{ content }}
+  <section class="o-container--sm u-mxa c-entry">
+    {{ content }}
   </section>
 
 </article>

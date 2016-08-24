@@ -1,30 +1,17 @@
-<ul class="sharing">
-        <li>
-            <a href="https://twitter.com/intent/tweet?text='{{ page.title }}'&amp;url={{ page.url | prepend: site.url }}&amp;via=sabrinadpeters" target="_blank">
-                <svg viewBox="0 0 300 300" class="icon circling">
-                    <use xlink:href="#twitter"></use>
-                </svg>
-            </a>
-        </li>
-        <li>
-            <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url }}" target="_blank">
-                <svg viewBox="0 0 300 300" class="icon circling">
-                    <use xlink:href="#facebook"></use>
-                </svg>
-            </a>
-        </li>
-        <li>
-            <a href="https://plus.google.com/share?url={{ page.url | prepend: site.url }}" target="_blank">
-                <svg viewBox="0 0 300 300" class="icon circling">
-                    <use xlink:href="#googleplus"></use>
-                </svg>
-            </a>
-        </li>
-        <li>
-            <a href="{{ page.url | prepend: site.url }}" target="_blank">
-                <svg viewBox="0 0 300 300" class="icon circling">
-                    <use xlink:href="#link"></use>
-                </svg>
-            </a>
-        </li>
-</ul>
+<div class="u-py5">
+  <h3 class="h6 u-w300 u-lt-3 u-caps u-sans u-mb3">Share This Post</h3>
+  <ul class="list--reset">
+    <li class="u-inbl u-py2 u-mr5">
+      <a href="https://twitter.com/intent/tweet?text='{{ page.title }}'&amp;url={{ page.url | prepend: site.url }}&amp;via=sabrinadpeters" target="_blank">Twitter</a>
+    </li>
+    <li class="u-inbl u-py2 u-mr5">
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url }}" target="_blank">Facebook</a>
+    </li>
+    <li class="u-inbl u-py2 u-mr5">
+      <a href="https://plus.google.com/share?url={{ page.url | prepend: site.url }}" target="_blank">Google Plus</a>
+    </li>
+    <li class="u-inbl u-py2 u-mr5">
+      <a href="{{ page.url | prepend: site.url }}" target="_blank">Permalink</a>
+    </li>
+  </ul>
+</div>
