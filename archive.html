@@ -1,35 +1,37 @@
 ---
 layout: default
 ---
-<section class="frontposts">
-    <section class="container">
-<section class="frontpostindex archives">
-{% for post in site.posts  %}
-    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+<section class="u-px3">
+  <div class="o-container o-container--sm u-mxa u-py5">
+    <section class="">
+    {% for post in site.posts  %}
+        {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+        {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
-    {% if forloop.first %}
-    <h2 class="year" id="{{ this_year }}-ref">{{this_year}}</h2>
-    <ul>
-    {% endif %}
-
-    <li>
-        <article class="frontpost">
-            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-            <div class="meta">{{ post.date | date: "%b %-d" }}</div>
-        </article>
-    </li>
-
-    {% if forloop.last %}
-    </ul>
-    {% else %}
-        {% if this_year != next_year %}
-        </ul>
-        <h2 class="year" id="{{ next_year }}-ref">{{next_year}}</h2>
-        <ul>
+        {% if forloop.first %}
+        <h2 class="h5 u-sans u-xsb--dark" id="{{ this_year }}-ref">{{this_year}}</h2>
+        <ul class="list--reset u-mb4">
         {% endif %}
-    {% endif %}
-{% endfor %}
-</section>
-</section>
+
+        <li class="u-py3 small">
+          <article class="frontpost">
+            <h3 class="h6 u-w400 u-mb1">
+              <a href="{{ post.url }}" class="u-xsb">{{ post.title }}</a>
+            </h3>
+            <time class="small u-caps u-lt-3">{{ post.date | date: "%B %-d" }}</time>
+          </article>
+        </li>
+
+        {% if forloop.last %}
+        </ul>
+        {% else %}
+            {% if this_year != next_year %}
+            </ul>
+            <h2 class="h5 u-sans u-xsb--dark" id="{{ next_year }}-ref">{{next_year}}</h2>
+            <ul class="list--reset u-mb4">
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+    </section>
+  </div>
 </section>
