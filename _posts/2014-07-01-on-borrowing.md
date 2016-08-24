@@ -8,7 +8,7 @@ comments: true
 
 Everybody knows I love libraries - hey, that's why I'm even working in one! But there are some books that just can't be borrowed well, and poetry is one.
 
-![](/dist/img/mary-oliver.JPG)
+![](/assets/images/mary-oliver.JPG)
 
 from now until forever and ever  
 i will not borrow those  

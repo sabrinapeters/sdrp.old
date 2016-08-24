@@ -1,7 +1,8 @@
 ---
-layout: about
+layout: page
 title: About
 permalink: /about/
+avatar: true
 ---
 I'm a MLIS student [(University of Washington, incoming September 2014)](http://ischool.uw.edu/academics/mlis), bibliophile, and wife. I am also an aspiring agitator.
 
