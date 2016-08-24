@@ -17,6 +17,7 @@
     "babelify": "^7.3.0",
     "browser-sync": "^2.12.8",
     "browserify": "^13.0.1",
+    "css-mqpacker": "^5.0.1",
     "cssnano": "^3.7.3",
     "del": "^2.2.1",
     "gulp": "github:gulpjs/gulp#4.0",
@@ -47,7 +48,10 @@
     "url": "https://github.com/sabrinapeters/sabrinapeters.github.io/issues"
   },
   "babel": {
-    "presets": ["es2015", "react"]
+    "presets": [
+      "es2015",
+      "react"
+    ]
   },
   "homepage": "https://github.com/sabrinapeters/sabrinapeters.github.io#readme",
   "main": "Gulpfile.js",

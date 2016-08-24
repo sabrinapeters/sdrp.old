@@ -5,6 +5,7 @@
 
 @import 'obsidian.css/lib/objects/obsidian.icons';
 @import 'obsidian.css/lib/objects/obsidian.containers';
+@import 'obsidian.css/lib/objects/obsidian.grid-columns';
 @import 'obsidian.css/lib/objects/obsidian.flex';
 
 @import './components/header';

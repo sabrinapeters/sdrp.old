@@ -9,6 +9,7 @@ import cheerio from 'gulp-cheerio'
 import postcss from 'gulp-postcss'
 import cssnext from 'postcss-cssnext'
 import atImport from 'postcss-import'
+import mqpacker from 'css-mqpacker'
 import papply from 'postcss-apply'
 import uncss from 'postcss-uncss'
 import nano from 'cssnano'
@@ -47,6 +48,7 @@ const styles = () => {
       html: ['./_site/**/*.html'],
       ignore: ['.c-entry', '.c-entry *']
     }),
+    mqpacker(),
     nano({
       autoprefixer: false,
       mergeRules: false,
