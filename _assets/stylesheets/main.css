@@ -1,0 +1,22 @@
+@import 'obsidian.css/lib/settings';
+@import './local-settings';
+@import 'obsidian.css/lib/generic';
+@import 'obsidian.css/lib/elements';
+@import 'obsidian.css/lib/objects';
+
+@import './components/header';
+@import './components/hero';
+@import './components/entry';
+@import './components/avatar';
+
+@import './utilities/colors';
+@import 'obsidian.css/lib/utilities';
+
+:root {
+  --headlines: var(--serif);
+  --body-text: inherit;
+  --ff-sans-serif: var(--sans-serif);
+  --ff-serif: var(--serif);
+  --color-1: var(--s-blue-dark);
+  --base-border: 2px;
+}

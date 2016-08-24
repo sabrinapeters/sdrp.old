@@ -1,0 +1,7 @@
+.c-hero {
+  background-image: linear-gradient(to top right, var(--s-blue-dark), var(--s-blue));
+}
+
+.c-hero--sub {
+  background-image: linear-gradient(to bottom left, color(var(--s-blue) lightness(+5%)), var(--s-blue-pale));
+}
