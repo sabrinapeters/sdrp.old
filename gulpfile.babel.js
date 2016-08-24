@@ -46,7 +46,11 @@ const styles = () => {
     // uncss({ html: ['./_site/**/*.html'] }),
     nano({
       autoprefixer: false,
-      mergeRules: false
+      mergeRules: false,
+      filterPlugins: false,
+      discardComments: {
+        removeAll: true
+      }
     })
   ]
 
