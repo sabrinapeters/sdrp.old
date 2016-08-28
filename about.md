@@ -4,17 +4,11 @@ title: About
 permalink: /about/
 avatar: true
 ---
-I'm a MLIS student [(University of Washington, incoming September 2014)](http://ischool.uw.edu/academics/mlis), bibliophile, and wife. I am also an aspiring agitator.
 
-While I love empowering individuals with the freedom that knowledge brings, my first love has always been research. Curiosity sparks into a flame of questions that will not be quenched until the answers are found. I will sleuth until all the puzzle pieces are found and can be put together.
+Aspiring librarian and agitator for good, who looks at the world through a theological lense most of the time (thanks, seminary!), enjoys walks with [Charles Peters](http://www.charlespeters.net) by the water, has a lot of professional experience with books, writes sometimes, and drinks a lot of kombucha.
 
-They say that those who write must also be readers. I am a reader, yes, but a lazy writer, if at all. Most of my thoughts are connected to worldview, theology, and why people do, say, and think they way they do, say, and think things. I am particularly grieved at injustices and abuse within the universal Church. My Master of Divinity may not have placed me in a formal position of church ministry, but the training I received in seminary will always influence my thinking.
+Send me a note to learn more.
 
-That being said, what I write is not always related to theology & worldview & books. Sometimes I think I can write short stories, so I try. And sometimes poetry.
-
-My loves include my [husband](http://www.charlespeters.net), good coffee, food, chocolate, sustainable living, poetry, music, art, tulips, the Pacific Northwest, and 30 Rock. There's probably more to that list, but I don't want to spoil it for you.
-
-Dialogue is much more enjoyable than monologue, so I do hope you'll stick around, or send me a note.
-
+Peace.
 
 Peace.
