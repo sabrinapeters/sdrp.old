@@ -31,8 +31,9 @@ Some of you will still see this as a defense for Hillary Clinton. That’s quite
 
 If you’re on the fence, let me invite you to consider a [third-party vote](https://medium.com/@katylevinson/why-you-can-and-should-vote-3rd-party-in-some-states-908326575c6b#.di000g393).
 
-And finally, because I know some of you are as lazy as I am and won’t employ a Google search, here are some links to click on:
+And finally, because I know some of you are as lazy as I am and won’t employ a Google search, here are some links to check out:
 
+- [Public Faith](http://www.publicfaith.us/)
 - [Slate's List](http://www.slate.com/articles/news_and_politics/cover_story/2016/07/donald_trump_is_unfit_to_be_president_here_are_141_reasons_why.html)
 - [Double standards](http://www.theatlantic.com/politics/archive/2016/08/evangelical-christians-trump-bill-clinton-apology/495224/)
 - [Grudem is wrong](http://www.patheos.com/blogs/eidos/2016/07/a-good-man-justifies-a-wicked-deed-grudem-on-trump/)
