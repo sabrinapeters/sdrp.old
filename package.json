@@ -37,7 +37,8 @@
     "postcss-import": "^8.0.2",
     "postcss-reporter": "^1.3.3",
     "postcss-uncss": "^0.14.0",
-    "stylelint": "^6.5.0",
+    "stylelint": "^7.2.0",
+    "stylelint-config-wilco": "^1.0.2",
     "time-require": "^0.1.2",
     "uncss": "^0.14.1",
     "vinyl-buffer": "^1.0.0",
@@ -52,6 +53,9 @@
       "es2015",
       "react"
     ]
+  },
+  "stylelint": {
+    "extends": "stylelint-config-wilco"
   },
   "homepage": "https://github.com/sabrinapeters/sabrinapeters.github.io#readme",
   "main": "Gulpfile.js",
