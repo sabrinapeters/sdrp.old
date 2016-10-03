@@ -1,18 +1,21 @@
 @import 'obsidian.css/lib/settings';
 @import './local-settings';
 @import 'obsidian.css/lib/generic';
-@import 'obsidian.css/lib/elements';
-
+@import './table';
+@import 'obsidian.css/lib/elements/obsidian.forms';
+@import 'obsidian.css/lib/elements/obsidian.headlines';
+@import 'obsidian.css/lib/elements/obsidian.body-text';
+@import 'obsidian.css/lib/elements/obsidian.images';
+@import 'obsidian.css/lib/elements/obsidian.lists';
+@import 'obsidian.css/lib/elements/obsidian.links';
 @import 'obsidian.css/lib/objects/obsidian.icons';
 @import 'obsidian.css/lib/objects/obsidian.containers';
 @import 'obsidian.css/lib/objects/obsidian.grid-columns';
 @import 'obsidian.css/lib/objects/obsidian.flex';
-
 @import './components/header';
 @import './components/hero';
 @import './components/entry';
 @import './components/avatar';
-
 @import './utilities/colors';
 @import 'obsidian.css/lib/utilities/obsidian.layout';
 @import 'obsidian.css/lib/utilities/obsidian.spacing';
@@ -25,4 +28,8 @@
   --ff-serif: var(--serif);
   --color-1: var(--s-blue-dark);
   --base-border: 2px;
+}
+
+@media (--md) {
+  .o-col--5\~\/12\@md { width: 48%; }
 }

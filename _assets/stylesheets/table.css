@@ -1,0 +1,38 @@
+
+/*----------Table Element----------*/
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th { padding: 0; }
+
+/* Responsive Table Implementation */
+
+.table { width: 100%; }
+
+.table__heading { display: none; }
+.table__content { display: block; }
+
+.table__content::before {
+  content: attr(data-heading);
+  display: inline-block;
+  width: 5rem;
+  margin-right: 1rem;
+  color: var(--s-blue-dark);
+  font-size: .75rem;
+  text-align: left;
+}
+
+.table__row:not(:last-of-type) {
+  border-bottom: 1px solid 1px solid var(--s-blue);
+}
+
+@media (--md) {
+  .table__content,
+  .table__heading { display: table-cell; }
+
+  .table__content::before { display: none; }
+}
