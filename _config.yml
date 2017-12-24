@@ -1,10 +1,10 @@
 # Site settings
-title: Sabrina Peters
+title: Sabrina Reyes-Peters
 email: brideeray@gmail.com
-description: "I'm a MLIS student, librarian-in-training, and aspiring agitator for good."
-subtitle: "Librarian-in-Training <br/>&amp; Aspiring Agitator"
+description: "disturber of the kyriarchy • staunch bibliophile • wandering mdiv"
+subtitle: ""
 baseurl: ""
-url: "https://sabrinapeters.net"
+url: "http://www.sdrp.me"
 
 exclude: ["node_modules", "package.json", "Gruntfile.js"]
 
