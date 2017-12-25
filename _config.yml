@@ -1,12 +1,12 @@
 # Site settings
 title: Sabrina Reyes-Peters
 email: brideeray@gmail.com
-description: ""
-subtitle: "Dismantling the kyriarchy with Jesus"
+description: "a blog about dismantling the kyriarchy, faith"
+subtitle: "Stomping the kyriarchy"
 baseurl: ""
 url: "http://www.sdrp.me"
 
-exclude: ["node_modules", "package.json", "Gruntfile.js"]
+exclude: ["node_modules", "paths.js", "package-lock.json", "package.json", "gulpfile.babel.js"]
 
 # Build settings
 markdown: kramdown
