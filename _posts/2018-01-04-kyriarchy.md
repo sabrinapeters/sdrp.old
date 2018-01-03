@@ -5,7 +5,7 @@ date: 2018-01-03
 comments: true
 published: true
 ---
-_(If you haven't seen my new blog introduction, read that (here)[https://sdrp.me/2018/01/01/new-blog/]).
+(If you haven't seen my new blog introduction, read that [here](https://sdrp.me/2018/01/01/new-blog/)).
 
 My new tagline is "Stomping the kyriarchy with ordinary words." It took me a lot of effort to come up with that. I despise packaging myself into a marketable object, but I also wanted to communicate my new goal. Since "kyriarchy" is not a term you'll see around very often (that should change!), I thought I would give a summary of its definition, and explain my tagline.
 
