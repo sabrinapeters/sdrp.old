@@ -17,6 +17,11 @@ layout: default
           <article class="frontpost">
             <h3 class="h6 u-w400 u-mb1">
               <a href="{{ post.url }}" class="u-xsb">{{ post.title }}</a>
+              {% if post.subtitle %}
+                <small class='u-bl u-sans'>
+                  <i>{{ post.subtitle }}</i>
+                </small>
+              {% endif %}
             </h3>
             <time class="small u-caps u-lt-3">{{ post.date | date: "%B %-d" }}</time>
           </article>
