@@ -10,10 +10,7 @@
       "postcss _assets/stylesheets/main.css -o _site/assets/dist/bundle.css",
     "images": "imagemin _assets/images/**/* -o _site/assets/dists/img"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sabrinapeters/sabrinapeters.github.io.git"
-  },
+  "repository": "sabrinapeters/sabrinapeters.github.io",
   "dependencies": {
     "obsidian.css": "^2.1.3"
   },
