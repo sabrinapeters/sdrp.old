@@ -6,12 +6,16 @@
   "description": "Jekyll Setup for Sabrina's blog",
   "scripts": {
     "start": "jekyll serve",
-    "css": "postcss _assets/stylesheets/main.css -o _site/assets/dist/bundle.css",
+    "css":
+      "postcss _assets/stylesheets/main.css -o _site/assets/dist/bundle.css",
     "images": "imagemin _assets/images/**/* -o _site/assets/dists/img"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sabrinapeters/sabrinapeters.github.io.git"
+  },
+  "dependencies": {
+    "obsidian.css": "^2.1.3"
   },
   "devDependencies": {
     "autoprefixer": "^7.2.5",
@@ -30,12 +34,7 @@
     "stylelint-config-wilco": "^1.0.2",
     "uncss": "^0.14.1"
   },
-  "bugs": {
-    "url": "https://github.com/sabrinapeters/sabrinapeters.github.io/issues"
-  },
-  "browserslist": [
-    "last 2 version"
-  ],
+  "browserslist": ["last 2 version"],
   "postcss": {
     "plugins": {
       "postcss-import": {},
@@ -49,13 +48,8 @@
       },
       "postcss-apply": {},
       "postcss-uncss": {
-        "html": [
-          "./_site/**/*.html"
-        ],
-        "ignore": [
-          ".c-entry",
-          ".c-entry *"
-        ]
+        "html": ["./_site/**/*.html"],
+        "ignore": [".c-entry", ".c-entry *"]
       },
       "css-mqpacker": {},
       "cssnano": {
@@ -70,9 +64,5 @@
   },
   "stylelint": {
     "extends": "stylelint-config-wilco"
-  },
-  "dependencies": {
-    "obsidian.css": "^2.1.3"
-  },
-  "license": "MIT"
+  }
 }
