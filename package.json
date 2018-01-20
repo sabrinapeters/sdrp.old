@@ -6,7 +6,8 @@
   "description": "Jekyll Setup for Sabrina's blog",
   "scripts": {
     "start": "jekyll serve",
-    "css": "postcss _assets/stylesheets/main.css -o _site/assets/dist/bundle.css"
+    "css": "postcss _assets/stylesheets/main.css -o _site/assets/dist/bundle.css",
+    "images": "imagemin _assets/images/**/* -o _site/assets/dists/img"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
     "css-mqpacker": "^5.0.1",
     "cssnano": "^3.7.3",
     "del": "^2.2.1",
+    "imagemin-cli": "^3.0.0",
     "postcss-apply": "^0.8.0",
     "postcss-cli": "^4.1.1",
     "postcss-cssnext": "^3.0.2",
