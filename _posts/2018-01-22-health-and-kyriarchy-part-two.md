@@ -5,6 +5,7 @@ date: 2018-01-28
 comments: true
 published: true
 ---
+(Click [here](https://sdrp.me/2018/01/19/health-and-kyriarchy-part-one/) to read part 1!)
 
 As soon as I found out about having Hashimoto's, I went Googling. I found a Facebook group recommended by a Hashimoto's expert, and joined it. There are over 68,000 members there, most of them women (that is to be expected, because men with thyroid issues are in the minority).
 
