@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Health and the Kyriarchy
-subtitle: Part 2
+title: Health and the Kyriarchy, part 2
 date: 2018-01-28
 comments: true
 published: true
