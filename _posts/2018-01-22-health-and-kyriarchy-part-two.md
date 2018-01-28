@@ -2,9 +2,19 @@
 layout: post
 title: Health and the Kyriarchy
 subtitle: Part 2
-date: 2018-01-22
+date: 2018-01-28
 comments: true
-published: false
+published: true
 ---
 
-I joined a FB group for Hashimoto's. There are over 67,000 members there, most of the women, and everyday, I see multiple stories of being dismissed by medical professionals in some form or another. (By "medical professionals", I mean conventional doctors, not MDs who working in functional medicine.) Others have written on the disparity between treatment of
+As soon as I found out about having Hashimoto's, I went Googling. I found a Facebook group recommended by a Hashimoto's expert, and joined it. There are over 68,000 members there, most of them women (that is to be expected, because men with thyroid issues are in the minority).
+
+Every time I visit the group page, I see multiple stories of being dismissed by medical professionals in some form or another. (By "medical professionals", I mean conventional doctors, not MDs who working in functional medicine.) I had felt somewhat relieved upon diagnosis, but I also felt another sense of relief when I discovered I wasn't alone. Medical professionals [tend not to take women seriously](https://www.theguardian.com/lifeandstyle/2017/nov/20/healthcare-gender-bias-women-pain); in some cases, they are even dismissed when they are gravely ill and/or [in severe pain](https://www.theatlantic.com/health/archive/2015/10/emergency-room-wait-times-sexism/410515/). This has seemingly been the case since the [dawn of time](https://en.wikipedia.org/wiki/Female_hysteria), and one woman is accurate in labeling it as [gaslighting](https://journal.thriveglobal.com/doctors-stop-gaslighting-women-in-pain-3934a2fdc1b). I can talk to several women right now, who don't have the same conditions I do, but were treated in similar (sometimes worse!) fashion when seeking medical help. (It is even worse for women of color, but I'll get to that in a following blog post.)
+
+With all of that in mind, there is no surprise that I felt safer going to a naturopathic doctor. Over the years and in between doctor visits (mostly put off due to lack of means), I would consult books and Google, self-diagnose, and try various home treatments. I tried different diets (including going gluten- and dairy-free), herbs, vitamins, minerals, teas, and even essential oils. (Sometimes I felt like a poser, because not one medical doctor had told me that I needed a special diet. I just knew I felt better eating a certain way, but without a doctor to back me up, I would constantly get the side-eye.) There is a certain stigma around the [wellness movement](http://www.pharmacytimes.com/publications/directions-in-pharmacy/2015/october2015/the-wellness-movement), and people are rather generous in using the word "quack", but you can't really blame a woman for wanting to be healthy, being skeptical of modern medicine while knowing it's largely against her, and trying to help herself.
+
+Let me be honest. I am a skeptic when it comes to modern medicine, and not just because I've had better experiences in the naturopathic world. It makes sense to me that the body works as a whole, and works best when the causes of symptoms are addressed, not merely the symptoms (don't misunderstand me: I am not completely against modern medicine). I have an abundance of information at my fingertips that has led me to that conclusion, but here's the thing: that's a privilege.
+
+Being a woman seeking health is difficult, but I have other privileges beside information access. I have insurance that will allow me to seek the alternative treatments I want, along with special diets. I am also white-passing, which is something I take for granted too often. The wellness movement, including holistic medicine, is rife with privilege, and here is where intersecting forms of oppression weave together.
+
+Modern medicine, and alternative health/wellness movements, are both oppressive, and for multiple reasons. I'll explain with more detail in the next blog post, but I agree with [Katie Fustich](https://medium.com/s/silicon-valley-and-womens-health/why-holistic-medicine-is-marketed-to-rich-white-women-85f3c98ea0cb), who concludes that, "Were it not for this strange relationship between wealth and wellness, holistic medicine could provide a viable path for those left vulnerable by the massive gaps in the American health insurance system."
