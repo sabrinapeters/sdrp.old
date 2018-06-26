@@ -24,4 +24,5 @@ I'd welcome more thoughts on this. I'm currently educating myself on the sociali
 
 
 *The Paleo community, especially [The Paleo Mom](https://www.thepaleomom.com/paleo-principles-references/), while it can be militaristic, has been good about discussing this topic. I recommend you check out The Paleo Mom for actual scientific references.
+
 **This is also an opinion piece, but it makes a lot of sense: [Food and the Socialist Revolution](https://www.marxist.com/food-and-socialist-revolution.htm)
