@@ -6,9 +6,7 @@
   "description": "Jekyll Setup for Sabrina's blog",
   "scripts": {
     "start": "jekyll serve",
-    "css": "postcss _assets/stylesheets/index.css",
-    "css:dev": "yarn css -o _site/assets/bundle.css",
-    "css:prod": "yarn css -o assets/bundle.css",
+    "css": "postcss _assets/stylesheets/index.css -o _includes/bundle.css",
     "images": "imagemin _assets/images/**/* -o _site/assets/dists/img"
   },
   "repository": "sabrinapeters/sabrinapeters.github.io",
