@@ -20,4 +20,6 @@ When human beings become "secondary issues", what does the accompanying theology
 
 To borrow one more illustration from dialectical theology: one of its core tenets is the nonobjectification of God. That is, God must not be made into an object of any sort; God is wholly other. I would venture to say, if your theology makes vulnerable people out to be "issues" of a secondary nature, and because you leave the final word to God, then you are declaring God to be an object that looks like a white, cis-hetero, able-bodied man. In other words, you are forming a god of privilege and oppression.[^1]
 
+Oppression, also a matter of life and death, should not be given a secondary space. When it comes to humanity, no human being should be "secondary". 
+
 [^1]: Dear dialectical theologians, on the very off-chance any of you are reading this: this is my first attempt to conceptualize the nonobjectification of God. If I've messed it up, please message me on Twitter or shoot me an [email](mailto:brideeray@gmail.com), because I am trying to learn this well!
