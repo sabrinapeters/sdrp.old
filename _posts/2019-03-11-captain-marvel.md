@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Captain Marvel in the Evangelical Universe
+title: Captain Marvel in the Patriarchal Universe
 date: 2019-03-11
 comments: true
 published: true
