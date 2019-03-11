@@ -14,7 +14,7 @@ Ahem. I digress.
 
 Then, thanks to Twitter, I stumble upon this gem: [Behold Your Queen: The Real Conflict in Captain Marvel](https://www.desiringgod.org/articles/behold-your-queen). (If you're not familiar with Desiring God, just think John Piper, and you're good to go.) I was tempted to destroy it line by line, but instead I will post excerpts and insert non-technical commentary because that takes less energy.
 
-![DG Header](/_assets/images/DG .png)
+![Captain Marvel](/_assets/images/captain-marvel.jpg)
 
 Let's start with part of the intro. Greg writes: _"According to its writer, Ms. Marvel was 'a feminist role model.' She eventually became Captain Marvel in the 2012 rendition of the comic."_
 
