@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Christians Must Be Socialists
+title: "Christians Must Be Socialists"
 date: 2019-04-16
 comments: true
 published: true
