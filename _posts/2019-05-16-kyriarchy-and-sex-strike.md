@@ -5,8 +5,6 @@ date: 2019-05-16
 comments: true
 published: true
 ---
-Privilege, especially if you claim to be a Christian, shouldn’t be wielded to your advantage. If you’re a Christian, there is no human hierarchy. Everyone should be given the same resources and opportunities.
-
 Last week, there was a to-do because Georgia is trying to pass heavy restrictions on abortion. The restrictions mean that even those who miscarry due to drug complications could be punished by law. That’s bad.
 
 This week, Alabama is trying to pass a complete ban, with no provisions or exceptions made for rape or incest. Ohio is also pushing for similar restrictions, and it seems Missouri is encouraged by this and following down a similar path.
