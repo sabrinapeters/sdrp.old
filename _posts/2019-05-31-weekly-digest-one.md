@@ -7,9 +7,9 @@ published: true
 ---
 Hello, and welcome to the first installment of Sabrina’s Weekly Digest, where I share some interesting things I’ve encountered. Essentially, these are things I think you might like to know.
 
-# Listening
+### Listening
 
-## Podcasts
+#### Podcasts
 
 If you haven’t heard, I was recently on a podcast episode of Sancta Colloquia, where I talked with Rev. Lauren Larkin about _Our God Loves Justice_. You can find more information [here](https://sdrp.me/2019/05/26/my-first-podcast/).
 
@@ -43,7 +43,7 @@ I wanted to do more than complain, so here is a list of podcasts that are NOT ho
 [Combing the Roots with Ally Henny](https://twitter.com/thearmchaircom?s=17)  
 [Impolite Pod](https://twitter.com/ImpolitePod?s=17)
 
-## Some other stuff I’ve been listening to on repeat:
+#### Some other stuff I’ve been listening to on repeat:
 
 Classical music playlists on Spotify  
 Binaural Beats playlists on Spotify  
@@ -53,9 +53,9 @@ Hozier, Wasteland, Baby!
 Beyonce, Lemonade
 
 
-# Reading
+### Reading
 
-## Books:
+#### Books:
 
 Here are some books I recently finished, along with some brief thoughts:
  _Union Made_ [review](https://sdrp.me/2019/05/30/union-made/)
@@ -63,9 +63,9 @@ Here are some books I recently finished, along with some brief thoughts:
  Captain America Vol.1: Winter in America (https://g.co/kgs/bgNcKD): I enjoyed this, including the illustrations,  but it was fairly predictable.
  Captain Marvel, Earth’s Mightiest Hero, Vol. 2 (https://www.marvel.com/comics/collection/58348/captain_marvel_earths_mightiest_hero_vol_2_trade_paperback): less predictable than Captain America, plus I always enjoy Captain Marvel more than Captain America, but I am not a fan of the illustration style that makes long, thin characters.
 
-## Articles and miscellanea:
+#### Articles and miscellanea:
 
-### Here are a few interesting readings (no links, sorry) from the ecotheology class I audited:					
+##### Here are a few interesting readings (no links, sorry) from the ecotheology class I audited:					
 
 Gebara, Ivone. Longing for Running Water: Ecofeminism and Liberation
 
@@ -85,7 +85,7 @@ I haven’t read this yet, but it looks to be an enlightening read, from the hos
 If you need something to be angry and/or sad about, check out how people are being [punished for being good neighbors](https://www.npr.org/2019/05/28/725716169/extending-zero-tolerance-to-people-who-help-migrants-along-the-border).
 
 
-# Curiosities
+### Curiosities
 
 A couple weeks ago, in the adult confirmation class, the rector at the church I’m attending said some things about Jesus I’d never heard before, not even in the classes I took with a professor from Claremont School of Theology (being a good fundie kid, I thought she was off her rocker, but I learned the stuff she taught so I could ace the exams):
 
