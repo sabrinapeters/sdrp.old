@@ -15,7 +15,7 @@ If you haven’t heard, I was recently on a podcast episode of Sancta Colloquia,
 
 Other podcast episodes I’ve enjoyed recently: The Magnificast’s episode [Capitalism, Socialism, and Communism 101!](https://soundcloud.com/themagnificast/ep-103-capitalism-socialism-and-communism-101), and Theology and Socialism’s episode [Socialism and Orthodoxy](http://theologyandsocialism.libsyn.com/socialism-and-orthodoxy).
 
-On Twitter this week, someone recently tweeted, “Why are there so many theology podcasts with white dudes based on beer?” to which I replied, “”why are so many theology podcasts just white dudes? they get old really fast.” The original tweeter said he was joking, but I wasn’t, haha.
+On Twitter this week, someone recently tweeted, “Why are there so many theology podcasts with white dudes based on beer?” to which I replied, “”why are so many theology podcasts just white dudes? they get old really fast.” The original tweeter said he was joking, but I wasn’t.
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">So, the tweet I was responding to here turned out to be a joke, but...this is not a joke, so in my digest this week I will be including a list of podcasts NOT hosted by just white dudes. FYI. <a href="https://t.co/uemHR2SAhx">https://t.co/uemHR2SAhx</a></p>&mdash; sabrina 🇵🇷 (@sdrp_) <a href="https://twitter.com/sdrp_/status/1133890156832759810?ref_src=twsrc%5Etfw">May 30, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 I wanted to do more than complain, so here is a list of podcasts that are NOT hosted by two white dudes. They are mostly theological/spiritually oriented, although not exclusively so. They are linked to their Twitter account, or website if the podcast doesn’t have a Twitter account. They are in no particular order. If you have any other ones to add, put them in the comments so I can add them the list!
@@ -41,43 +41,48 @@ I wanted to do more than complain, so here is a list of podcasts that are NOT ho
 [Holy Holy Podcast](https://twitter.com/holyholypodcast?s=17)  
 [Weird Religion](https://www.weirdreligion.com/)  
 [Combing the Roots with Ally Henny](https://twitter.com/thearmchaircom?s=17)  
-[Impolite Pod](https://twitter.com/ImpolitePod?s=17)
+[Impolite Pod](https://twitter.com/ImpolitePod?s=17)  
+[Spark My Muse](https://twitter.com/SparkMyMuse?s=17)
 
 #### Some other stuff I’ve been listening to on repeat:
 
-Classical music playlists on Spotify  
-Binaural Beats playlists on Spotify  
-Maggie Rogers, Heard It in a Past Life  
-Rozzi, Bad Together  
-Hozier, Wasteland, Baby!  
-Beyonce, Lemonade
+Classical music playlists on [Spotify](https://open.spotify.com/user/daniel.gluch/playlist/6ElXV85l4rwF6augTIO48S?si=mKuPhbWQQgGw8C0uMTkCeg)    
+Binaural Beats playlists on [Spotify](https://open.spotify.com/user/stinglacson/playlist/7sEXkuTLmp4NK7oeRkjQmS?si=Y5CxnBICTym9NztZGa4K0w)  
+Maggie Rogers, _Heard It in a Past Life_  
+Rozzi, _Bad Together_  
+Hozier, _Wasteland, Baby!_  
+Beyonce, _Lemonade_
 
 
 ### Reading
 
 #### Books:
 
-Here are some books I recently finished, along with some brief thoughts:
- _Union Made_ [review](https://sdrp.me/2019/05/30/union-made/)
- _She Who Would be King_(https://g.co/kgs/P99UjK): beautifully written historical novel with magical elements.
- Captain America Vol.1: Winter in America (https://g.co/kgs/bgNcKD): I enjoyed this, including the illustrations,  but it was fairly predictable.
- Captain Marvel, Earth’s Mightiest Hero, Vol. 2 (https://www.marvel.com/comics/collection/58348/captain_marvel_earths_mightiest_hero_vol_2_trade_paperback): less predictable than Captain America, plus I always enjoy Captain Marvel more than Captain America, but I am not a fan of the illustration style that makes long, thin characters.
+Here are some books I recently finished, along with some brief thoughts:  
+
+ _Union Made_: [review here](https://sdrp.me/2019/05/30/union-made/)  
+
+ [_She Who Would be King_](https://g.co/kgs/P99UjK): beautifully written, heart-breaking historical novel with magical elements. I actually did not know that Liberia was settled by former slaves until I read this book.
+
+ [Captain America Vol.1: Winter in America](https://g.co/kgs/bgNcKD): I enjoyed this take on Captain America by Ta-Nehisi Coates, including the illustrations,  but it was fairly predictable.  
+
+ [Captain Marvel, Earth’s Mightiest Hero, Vol. 2](https://www.marvel.com/comics/collection/58348/captain_marvel_earths_mightiest_hero_vol_2_trade_paperback): less predictable than Captain America, plus I always enjoy Captain Marvel more than Captain America, but I am not a fan of the illustration style that makes long, thin characters.
 
 #### Articles and miscellanea:
 
-##### Here are a few interesting readings (no links, sorry) from the ecotheology class I audited:					
+##### As requested, here are a few interesting readings from the ecotheology class I audited:					
 
-Gebara, Ivone. Longing for Running Water: Ecofeminism and Liberation
+[_Longing for Running Water: Ecofeminism and Liberation_](https://fortresspress.com/product/longing-running-water-ecofeminism-and-liberation) by Ivone Gebara
 
-Cone, James H. “Whose Earth Is It, Anyway?” In Earth Habitat: Eco-Injustice and the Church’s Response, edited by Dieter Hessel and Larry Rassmussen, 23-32. 				
+by James Cone: “Whose Earth Is It, Anyway?” In [_Earth Habitat: Eco-Injustice and the Church’s Response_](https://www.augsburgfortress.org/store/product/2418/Earth-Habitat?c=244861&infoID=2459) 23-32. 				
 
-Harris, Melanie L. “Ecowomanism 101: Method and Approaches.” In Ecowomanism: African American Women and Earth-Honoring Faiths, 13-59.
+by Melanie Harris: “Ecowomanism 101: Method and Approaches.” In [_Ecowomanism: African American Women and Earth-Honoring Faiths_,](https://www.orbisbooks.com/ecowomanism.html) 13-59.
 
-______ . “Engaging Transformation: Ecowomanist Spirituality.” In Ecowomanism: African American Women and Earth-Honoring Faiths, 79-109
+______ . “Engaging Transformation: Ecowomanist Spirituality.” In _Ecowomanism: African American Women and Earth-Honoring Faiths_, 79-109
 
-______ . “Honoring Womanist Experience.” In Ecowomanism: African American Women and Earth- Honoring Faiths, 1-12.					
+______ . “Honoring Womanist Experience.” _In Ecowomanism: African American Women and Earth-Honoring Faiths_, 1-12.					
 
-Harris, Melanie L. “Ecowomanism: Black Women, Religion, and the Environment.” The Black Scholar 46, no. 3 (2016): 27-39.
+______ “Ecowomanism: Black Women, Religion, and the Environment.” [_The Black Scholar_ 46, no. 3 (2016): 27-39.](https://www.tandfonline.com/doi/full/10.1080/00064246.2016.1188354)
 ____
 
 I haven’t read this yet, but it looks to be an enlightening read, from the hosts of The Magnificast: [“Podcasting Pedagogy, and the Inheritance of Clandestine Broadcasts.”](https://hcommons.org/deposits/item/hc:24519/)
