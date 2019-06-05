@@ -2,6 +2,7 @@
 layout: post
 date: 2019-06-04
 title: In which there is a socialist meet and greet
+subtitle: or, The First Adventure of an Infant Socialist
 comments: true
 published: true
 ---
