@@ -39,4 +39,4 @@ Why am I relaying this story? Well, I don’t think I need a good reason. It’s
 
 5) You needed a mildly amusing story.
 
-Actually, that point may not be true, but I hope it was at least mildly amusing.
+Actually, that point may not be true, but I hope it was at least mildly amusing. You're welcome.
