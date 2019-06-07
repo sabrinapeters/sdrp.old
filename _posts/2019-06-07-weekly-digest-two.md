@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sabrina's Weekly Digest No. 2
-date: 06-07-2019
+date: 07-06-2019
 comments: true
 published: true
 ---
