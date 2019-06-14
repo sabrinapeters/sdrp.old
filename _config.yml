@@ -3,10 +3,31 @@ title: Sabrina Reyes-Peters
 email: brideeray@gmail.com
 description: "a blog about faith & dismantling the kyriarchy"
 subtitle: "stomping the kyriarchy with ordinary words"
+livereload: true
 baseurl: ""
 url: "http://www.sdrp.me"
+social:
+  - title: Twitter
+    url: https://twitter.com/sdrp_
+    icon: "#twitter"
+  - title: Goodreads
+    url: https://www.goodreads.com/user/show/23284725-sabrina-peters
+    icon: "#goodreads"
+  - title: Instagram
+    url: http://instagram.com/__sdrp__
+    icon: "#instagram"
+  - title: Pinterest
+    url: https://www.pinterest.com/brideeray/
+    icon: "#pinterest"
 
-exclude: ["node_modules", "paths.js", "package-lock.json", "package.json", "gulpfile.babel.js"]
+exclude:
+  [
+    "node_modules",
+    "paths.js",
+    "package-lock.json",
+    "package.json",
+    "gulpfile.babel.js",
+  ]
 
 # Build settings
 markdown: kramdown

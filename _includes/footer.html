@@ -1,5 +1,3 @@
 <footer class="footer">
-  <section class="u-center u-px3 u-py4">
-      &copy; {{ 'now' | date: "%Y" }} Sabrina Peters | Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
-  </section>
+  <section>{% include copyright.html %} | {% include rss.html %}</section>
 </footer>
