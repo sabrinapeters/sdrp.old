@@ -5,7 +5,7 @@
   "author": "Sabrina Peters <brideeray@gmail.com>",
   "description": "Jekyll Setup for Sabrina's blog",
   "scripts": {
-    "start": "jekyll serve",
+    "start": "bundle exec jekyll serve --incremental",
     "css": "postcss _assets/stylesheets/index.css -o _includes/bundle.css",
     "images": "imagemin _assets/images/**/* -o _site/assets/dists/img"
   },

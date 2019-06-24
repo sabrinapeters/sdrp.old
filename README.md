@@ -1,21 +1,21 @@
-Sabrina's Guide to Blogging with Jekyll
----
+## Sabrina's Guide to Blogging with Jekyll
+
 This is a handy guide for Sabrina to run her blog locally and update and maintain it.
 
-## Running Gulp
+## Running Development Tasks
 
 Make sure you have the latest version of Node.js installed, `brew install node`. If the command `brew` isn't found install [Homebrew](http://brew.sh/).
 
-Next we need to have gulp installed:
+Next we need to have yarn installed:
 
 ```
-$ npm install -g gulpjs/gulp#4.0 gulp-cli
+brew install yarn
 ```
 
 Now we run install on the project directory:
 
 ```
-$ npm install && npm start
+$ yarn && yarn start
 ```
 
 ### Serving Jekyll
@@ -23,9 +23,6 @@ $ npm install && npm start
 Jekyll is called for rebuilding from Gulp directly. Make sure you have the latest version: `sudo gem install jekyll`
 
 ## Pushing to Github
+
 ## Adding New Posts & Pages
 
-
-## To-Do
-- [ ] Disqus `max-width: 100%`
-- [ ] Navigation

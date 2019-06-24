@@ -8,16 +8,16 @@ layout: default
     {% if page.subtitle %}
     <h2 class="h6 u-w300 u-lt-3 u-caps u-sans u-mb3">{{ page.subtitle }}</h2>
     {% endif %}
-    <hr class="u-bg--xsb" />
-    <time class="small u-bl u-caps u-lt-3">{{
-      page.date | date: "%B %-d, %Y"
-    }}</time>
+    <!-- <hr class="Rule u-bg--xsb" /> -->
+    <time class="Meta">{{ page.date | date: "%B %-d, %Y" }}</time>
   </header>
 
   <section class="Entry">{{ content }}</section>
-
+  <aside>
+    {% include sharing.html %} {% include bio.html %} {% include
+    related-posts.html %}
+  </aside>
   <footer>
-    {% include sharing.html %} {% if page.comments %} {% include comments.html
-    %} {% endif %}
+    {% if page.comments %} {% include comments.html %} {% endif %}
   </footer>
 </article>

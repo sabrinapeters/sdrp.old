@@ -4,12 +4,11 @@
   <body>
     {% include meta-icons.svg %}
     <div class="o-Container">
-      <div class="o-ContainerSidebar Sidebar">
-        {% include header.html %} {% include footer.html %}
-      </div>
+      <div class="o-ContainerSidebar Sidebar">{% include header.html %}</div>
       <main id="main" class="o-ContainerMain site-main" role="main">
         {{ content }}
       </main>
     </div>
+    {% include footer.html %}
   </body>
 </html>

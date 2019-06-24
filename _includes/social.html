@@ -1,20 +1,16 @@
-<aside>
-  <div class="SocialList">
-    <h3 class="h5">Find Me On</h3>
-    <ul class="SocialListItems">
-      {% for item in site.social %}
-      <li class="SocialListItem">
-        <a
-          href="{{ item.url }}"
-          class="u-bl u-xsb--pale"
-          title="{{ item.title }}"
-        >
-          <svg class="Icon">
-            <use xlink:href="{{ item.icon }}" />
-          </svg>
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-</aside>
+<div class="SocialList">
+  <h5>Find Me On</h5>
+  <ul class="SocialListItems">
+    {% for item in site.social %}
+    <li class="SocialListItem">
+      <a
+        href="{{ item.url }}"
+        class="u-bl u-xsb--pale"
+        title="{{ item.title }}"
+      >
+        <svg class="Icon"><use xlink:href="{{ item.icon }}" /></svg>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

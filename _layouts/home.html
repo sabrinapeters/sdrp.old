@@ -4,15 +4,13 @@ layout: default
 
 <section class="HeroSub">
   <div class="ArticleWrapper">
-    <div class="h6 u-py6 u-mb5 u-sans">{{ content }}</div>
+    <h2 class="u-serif">{{ site.subtitle }}</h2>
+
+    <div class="f5 u-sans">{{ content }}</div>
   </div>
 </section>
-<section class="">
-  <div class="ArticleWrapper">
-    <hr class="o-col--5/12 u-mxa u-bg--xsb u-mb4" />
-    <div class="u-center">
-      {% include posts-list.html %}
-      <a href="/archive" class="bttn">Full Archive</a>
-    </div>
-  </div>
+<section class="ArticleWrapper">
+  {% include posts-list.html %} <a href="/archive" class="bttn">Full Archive</a>
+
+  {% include bio.html %}
 </section>
