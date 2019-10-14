@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sabrina's Digest: Indigenous Peoples' Day edition
+title: Sabrina's Digest, Indigenous Peoples' Day edition
 date: 2019-10-14
 comments: true
 published: true
