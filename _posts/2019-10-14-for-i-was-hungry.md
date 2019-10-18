@@ -48,7 +48,7 @@ I dip my hand in the bag again,
 bringing out with precisely three chips.  
 
 I finish assembling,  
-and begin eating.   
+and begin eating after he walks away again.   
 
 About halfway through, I hear, "Oh, that looks good." 
 
