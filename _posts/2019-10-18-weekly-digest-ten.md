@@ -22,7 +22,7 @@ I'm currently reading [*The Water Dancer*](https://g.co/kgs/rqytM3) and [*Ink an
 
 This excerpt from [*God Matters*](https://g.co/kgs/xxaw9Z) is well worth the 30 predicted minutes it will take to read. Here's a quote to whet your appetite: 
 
->> "The Christian Church, with minor exceptions, has been solidly on the side of violence for centuries, but normally it has only been the violence of soldiers and policemen. It is only when the poor catch on to violence that it suddenly turns out to be against the gospel."
+> "The Christian Church, with minor exceptions, has been solidly on the side of violence for centuries, but normally it has only been the violence of soldiers and policemen. It is only when the poor catch on to violence that it suddenly turns out to be against the gospel."
 
 Read more: [Fr. Herbert McCabe, “The Class Struggle and Christian Love” (1980)](https://medium.com/@taycross/fr-herbert-mccabe-the-class-struggle-and-christian-love-1980-684842ebce61).
 
