@@ -9,7 +9,8 @@ published: true
 Hello gentlefolks, and welcome to the 10th edition of my digest! (Can I call it a weekly digest if I took a two month "break"?) 
 Also, yes, this the 10th digest, hooray! I didn't give my [last one](https://sdrp.me/2019/10/14/digest-special-indigenous-peoples/) a number, but it was the ninth, so I'll make this one the tenth. 
 
-This will be really short, because I haven't been listening to a whole lot of things (I am REALLY behind on my podcasts) the past couple weeks.
+This will be really short, because I haven't been listening to a whole lot of things (I am REALLY behind on my podcasts) the past couple weeks.  
+
 ___
 
 ### Reading
