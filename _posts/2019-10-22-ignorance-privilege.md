@@ -28,7 +28,7 @@ That being said, what MacArthur said about Moore is not necessarily the problem,
 
 Why did his comment sting so much? Well, as I started to explain in my last post, I am a woman who went to The Master's College, and majored in Greek and Hebrew, for crying out loud. I'm also Latina (yes, I'm white-passing). So MacArthur's comments meant that he couldn't care less if someone like me was on a translation committee, regardless of my qualifications. As I wrote previously, MacArthur has passed along this message: marginalized voices do not matter.
 
-MacArthur's comments aren't without precedence, and if you had been paying attention in the past, you'd know he is far from being a white ally. In his own words, just [last year]((https://www.gty.org/library/blog/B180827), he wrote: 
+MacArthur's comments aren't without precedence, and if you had been paying attention in the past, you'd know he is far from being a white ally. In his own words, just [last year](https://www.gty.org/library/blog/B180827), he wrote: 
 
 > "I thought the evangelical church was living out true unity in Christ without regard for race. That has certainly been my experience in every church I’ve ever been part of, and it’s also what I have seen in the wider evangelical world. I don’t know of any authentically evangelical church where people would be excluded or even disrespected because of their ethnicity or skin color."
 
