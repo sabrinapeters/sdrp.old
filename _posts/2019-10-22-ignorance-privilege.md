@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2019-10-23
-title: Ignorance and Privilege
+title: John MacArthur's Ignorance and Privilege
 comments: true
 published: true
 ---
