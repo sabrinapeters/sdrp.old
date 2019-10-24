@@ -3,14 +3,10 @@ layout: default
 ---
 
 <section class="HeroSub">
-  <div class="ArticleWrapper">
-    <h2 class="u-serif">{{ site.subtitle }}</h2>
+  <h2 class="u-serif">{{ site.subtitle }}</h2>
 
-    <div class="f5 u-sans">{{ content }}</div>
-  </div>
+  <div class="f5 u-sans">{{ content }}</div>
 </section>
-<section class="ArticleWrapper">
-  {% include posts-list.html %} <a href="/archive" class="bttn">Full Archive</a>
+{% include posts-list.html %} <a href="/archive" class="bttn">Full Archive</a>
 
-  {% include bio.html %}
-</section>
+{% include bio.html %}
