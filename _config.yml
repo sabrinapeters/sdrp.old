@@ -2,11 +2,32 @@
 title: Sabrina Reyes-Peters
 email: brideeray@gmail.com
 description: "a blog about faith & dismantling the kyriarchy"
-subtitle: "stomping the kyriarchy with ordinary words"
+subtitle: "Stomping the kyriarchy with ordinary words"
+about: "Sabrina reads lots of books (mostly comics and theology books lately), drinks lots of tea, pretends to be smart on Twitter, and ponder how to destroy the kyriarchy. She lives in the passive-aggressive, beautiful Seattle, with her spouse and his mostly clever, somewhat corny jokes. She currently serves as a Eucharistic minister at a local Episcopal church, and is re-exploring her vocational direction, dusting off the MDiv she earned six years ago. For the personality junkies out there, she is most likely a 5w6, and every MBTI test ever taken has been inconclusive, save for the “I” for “introvert”."
 baseurl: ""
 url: "http://www.sdrp.me"
+social:
+  - title: Twitter
+    url: https://twitter.com/sdrp_
+    icon: "#twitter"
+  - title: Goodreads
+    url: https://www.goodreads.com/user/show/23284725-sabrina-peters
+    icon: "#goodreads"
+  - title: Instagram
+    url: http://instagram.com/__sdrp__
+    icon: "#instagram"
+  # - title: Pinterest
+  #   url: https://www.pinterest.com/brideeray/
+  #   icon: "#pinterest"
 
-exclude: ["node_modules", "paths.js", "package-lock.json", "package.json", "gulpfile.babel.js"]
+exclude:
+  [
+    "node_modules",
+    "paths.js",
+    "package-lock.json",
+    "package.json",
+    "gulpfile.babel.js",
+  ]
 
 # Build settings
 markdown: kramdown

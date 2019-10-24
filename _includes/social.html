@@ -1,39 +1,16 @@
-<aside class="u-center u-px3 u-px0@md">
-  <div class="widget social-list">
-    <h3 class="h4 u-mb5">Find Me On</h3>
-    <ul class="list--reset o-flex o-flex--wrap o-flex--j--sa u-caps u-lt-3">
-      <li class="o-col--6/12 o-col--3/12@md u-py2 u-mb4 ">
-        <a href="https://twitter.com/sdrp_" class="u-bl u-xsb--dark">
-          <svg class="o-icon o-icon--sm u-bl u-mb4 u-mxa">
-            <use xlink:href="#twitter" />
-          </svg>
-          <span>Twitter</span>
-        </a>
-      </li>
-      <li class="o-col--6/12 o-col--3/12@md u-py2 u-mb4">
-        <a href="http://instagram.com/__sdrp__" class="u-bl u-xsb--dark">
-          <svg class="o-icon o-icon--sm u-bl u-mb4 u-mxa">
-            <use xlink:href="#instagram" />
-          </svg>
-          <span>Instagram</span>
-        </a>
-      </li>
-      <li class="o-col--6/12 o-col--3/12@md u-py2 u-mb4">
-        <a href="https://www.goodreads.com/user/show/23284725-sabrina-peters" class="u-bl u-xsb--dark">
-          <svg class="o-icon o-icon--sm u-bl u-mb4 u-mxa">
-            <use xlink:href="#goodreads" />
-          </svg>
-          <span>Goodreads</span>
-        </a>
-      </li>
-      <li class="o-col--6/12 o-col--3/12@md u-py2 u-mb4">
-        <a href="https://www.pinterest.com/brideeray/" class="u-bl u-xsb--dark">
-          <svg class="o-icon o-icon--sm u-bl u-mb4 u-mxa">
-            <use xlink:href="#pinterest" />
-          </svg>
-          <span>Pinterest</span>
-        </a>
-      </li>
-    </ul>
-  </div>
-</aside>
+<div class="SocialList">
+  <h5>Find Me On</h5>
+  <ul class="SocialListItems">
+    {% for item in site.social %}
+    <li class="SocialListItem">
+      <a
+        href="{{ item.url }}"
+        class="u-bl u-xsb--pale"
+        title="{{ item.title }}"
+      >
+        <svg class="Icon"><use xlink:href="{{ item.icon }}" /></svg>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
