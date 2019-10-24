@@ -1,9 +1,5 @@
 <h3 class="h4 u-mb5">Recent Posts</h3>
-{% for post in site.posts limit:4 %}
-  <article class="u-mb3">
-    <h3 class="h6 u-mb1 u-w400">
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h3>
-    <time class="small u-caps u-lt-3">{{ post.date | date: "%B %-d, %Y" }}</time>
-  </article>
-{% endfor %}
+<ul class="Archives">
+  {% for post in site.posts limit:6 %} {% include archive-item.html post=post
+  format="%B %-d, %Y" %} {% endfor %}
+</ul>

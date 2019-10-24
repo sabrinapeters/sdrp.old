@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html class="u-anti u-bg--bkg">
+<html class="u-anti">
   {% include head.html %}
   <body>
     {% include meta-icons.svg %}
-    {% include header.html %}
-    <main id="main" class="site-main" role="main">
-      {{ content }}
-    </main>
-    {% include footer.html %}
+    <div class="o-Wrapper">
+      {% include header.html %}
+      <main id="main" class="o-ContainerMain site-main" role="main">
+        {{ content }}
+      </main>
+      {% include footer.html %}
+    </div>
   </body>
 </html>

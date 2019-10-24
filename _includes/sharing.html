@@ -1,17 +1,23 @@
-<aside class="u-py5">
-  <h3 class="small u-w300 u-lt-3 u-caps u-sans u-mb3">Share This Post</h3>
-  <ul class="list--reset o-flex o-flex--wrap o-flex--j--sa small u-w700">
+<div class="Widget">
+  <h4 class="">Share This Post</h4>
+  <ul class="SharingLinks u-sans">
     <li class="u-inbl u-py2">
-      <a href="https://twitter.com/intent/tweet?text='{{ page.title }}'&amp;url={{ page.url | prepend: site.url }}&amp;via=sdrp_" target="_blank">Twitter</a>
+      <a
+        href="https://twitter.com/intent/tweet?text='{{ page.title }}'&amp;url={{ page.url | prepend: site.url }}&amp;via=sdrp_"
+        target="_blank"
+        >Twitter</a
+      >
     </li>
     <li class="u-inbl u-py2">
-      <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url }}" target="_blank">Facebook</a>
+      <a
+        href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url }}"
+        target="_blank"
+        >Facebook</a
+      >
     </li>
-    <li class="u-inbl u-py2">
-      <a href="https://plus.google.com/share?url={{ page.url | prepend: site.url }}" target="_blank">Google Plus</a>
-    </li>
+
     <li class="u-inbl u-py2">
       <a href="{{ page.url | prepend: site.url }}" target="_blank">Permalink</a>
     </li>
   </ul>
-</aside>
+</div>

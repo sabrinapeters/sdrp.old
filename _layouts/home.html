@@ -2,25 +2,11 @@
 layout: default
 ---
 
-{% include hero.html %}
+<section class="HeroSub">
+  <h2 class="u-serif">{{ site.subtitle }}</h2>
 
-<section class="c-hero--sub u-px3 u-xsb--dark">
-  <div class="o-container o-container--md u-mxa">
-    <div class="h6 u-py6 u-mb5 u-sans">
-      {{ content }}
-    </div>
-  </div>
+  <div class="f5 u-sans">{{ content }}</div>
 </section>
-<section class="frontposts">
-  <div class="o-container o-container--center o-container--md">
-    <div class="u-mb4">
-      {% include social.html %}
-    </div>
-    <hr class="o-col--5/12 u-mxa u-bg--xsb u-mb4" />
-    <div class="u-center">
-      {% include posts-list.html %}
-      <a href="/archive" class="bttn">Full Archive</a>
-    </div>
+{% include posts-list.html %} <a href="/archive" class="bttn">Full Archive</a>
 
-  </div>
-</section>
+{% include bio.html %}
