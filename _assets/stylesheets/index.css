@@ -6,7 +6,9 @@
   --s-bkg: #eeeded;
   --s-text: #484848;
   --s-card: #fff;
+  --s-shadow: 0 2px 4px rgba(27, 31, 35, 0.15);
   --base-space: 1rem;
+  --double-space: calc(var(--base-space) * 2);
   --inverted-base-space: -1rem;
   --serif: "Sentinel SSm A", "Sentinel SSm B", "Charter", Georgia, serif;
   --sans-serif: "Whitney SSm A", "Whitney SSm B", "Avenir", Verdana, sans-serif;
@@ -29,7 +31,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font: 300 100%/1.6 var(--serif);
+  font: 400 100%/1.7 var(--serif);
   -webkit-tap-highlight-color: transparent;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -85,7 +87,7 @@ td {
   display: inline-block;
   width: 5rem;
   margin-right: 1rem;
-  color: #5b87a4;
+  color: var(--s-blue-dark);
   font-size: 0.75rem;
   text-align: left;
 }
@@ -201,7 +203,7 @@ li > p {
 a {
   background-color: transparent;
   text-decoration: none;
-  color: #5b87a4;
+  color: var(--s-blue-dark);
 }
 
 a:active,
@@ -247,6 +249,13 @@ dl::after {
   display: table;
 }
 
+blockquote {
+  padding: 0 calc(var(--base-space) * 1.5);
+  border-left: 3px solid var(--s-blue);
+  margin: 0 0 var(--double-space);
+  font-style: italic;
+}
+
 .o-Wrapper {
   max-width: var(--container-width);
   width: 100%;
@@ -261,7 +270,7 @@ dl::after {
 }
 
 .RelatedPostsItem {
-  --offset: calc(var(--base-space) * 2);
+  --offset: var(--double-space);
   --currentSize: calc(var(--container-width) / 2);
   width: 100%;
   max-width: 100%;
@@ -295,7 +304,7 @@ dl::after {
   padding: var(--base-space);
   background: var(--s-card);
   border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(27, 31, 35, 0.15);
+  box-shadow: var(--s-shadow);
   text-align: left;
 }
 
@@ -303,7 +312,7 @@ dl::after {
   padding-top: var(--base-space);
   padding-bottom: var(--base-space);
   margin-bottom: var(--base-space);
-  border-bottom: 2px solid var(--s-blue-lite);
+  border-bottom: 1px solid var(--s-blue-lite);
 }
 
 .Footer {
@@ -313,15 +322,12 @@ dl::after {
 
 .Widget {
   text-align: center;
-  padding: calc(var(--base-space) * 2) 0;
-}
-
-.WidgetTitle {
+  padding: var(--double-space) 0;
 }
 
 .Sharing {
   text-align: center;
-  padding: calc(var(--base-space) * 2);
+  padding: var(--double-space);
 }
 
 .SharingLinks {
@@ -340,18 +346,18 @@ dl::after {
     var(--s-blue-pale)
   );
   color: var(--s-blue-dark);
-  padding: var(--hero-spacing) calc(var(--base-space) * 1);
+  padding: var(--hero-spacing) var(--base-space);
   margin: var(--hero-spacing) calc(var(--inverted-base-space) * 1);
-  box-shadow: 0 2px 4px rgba(27, 31, 35, 0.15);
+  box-shadow: var(--s-shadow);
 }
 
 .ArticleWrapper {
-  padding-bottom: calc(var(--base-space) * 2);
+  padding-bottom: var(--double-space);
 }
 
 .Archives {
   list-style: inside none;
-  margin-bottom: calc(var(--base-space) * 2);
+  margin-bottom: var(--double-space);
 }
 
 .ArchiveTitle {
@@ -360,7 +366,7 @@ dl::after {
 }
 
 .ArchiveItem:not(:last-of-type) {
-  margin-bottom: var(--base-space);
+  margin-bottom: var(--double-space);
 }
 
 .Meta {
@@ -375,7 +381,7 @@ dl::after {
   padding-top: calc(var(--base-space) * 6);
   padding-bottom: var(--base-space);
   text-align: center;
-  margin-bottom: calc(var(--base-space) * 2);
+  margin-bottom: var(--double-space);
 }
 
 .Rule,
@@ -384,7 +390,7 @@ dl::after {
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: var(--base-space);
+  margin-bottom: var(--double-space);
   background: var(--s-blue-lite);
 }
 
@@ -414,13 +420,6 @@ dl::after {
 
 .Entry li:not(:last-of-type) {
   margin-bottom: 0.5rem;
-}
-
-blockquote {
-  padding: 0.5rem 1.5rem;
-  border-left: 3px solid #85b3c1;
-  margin: var(--base-space) 0;
-  font-style: italic;
 }
 
 .c-entry .footnotes {
@@ -492,11 +491,11 @@ blockquote {
 }
 
 .u-bg--xsb {
-  background-color: #85b3c1;
+  background-color: var(--s-blue);
 }
 
 .u-bg--xsb--dark {
-  background-color: #5b87a4;
+  background-color: var(--s-blue-dark);
 }
 
 .u-bg--bkg {
@@ -504,11 +503,11 @@ blockquote {
 }
 
 .u-xsb {
-  color: #85b3c1;
+  color: var(--s-blue);
 }
 
 .u-xsb--dark {
-  color: #5b87a4;
+  color: var(--s-blue-dark);
 }
 
 .u-xsb--pale {
@@ -544,7 +543,7 @@ blockquote {
   }
 
   .RelatedPostsItem {
-    --offset: calc(var(--base-space) * 2);
+    --offset: var(--double-space);
     --currentSize: calc(var(--container-width) / 2);
     flex: 1;
     width: 100%;
@@ -576,14 +575,14 @@ blockquote {
 
   .SocialListItem {
     flex: 0;
-    margin-right: calc(var(--base-space) * 2);
+    margin-right: var(--double-space);
   }
 
   .HeroSub {
     --hero-spacing: calc(var(--base-space) * 3);
-    padding: var(--hero-spacing) calc(var(--base-space) * 2);
+    padding: var(--hero-spacing) var(--double-space);
     margin: var(--hero-spacing) calc(var(--inverted-base-space) * 2);
-    box-shadow: 0 2px 4px rgba(27, 31, 35, 0.15);
+    box-shadow: var(--s-shadow);
   }
 }
 
