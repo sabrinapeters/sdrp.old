@@ -1,0 +1,46 @@
+#!/usr/bin/env node
+
+var fm = require("front-matter");
+var fs = require("fs");
+var path = require("path");
+
+var TurndownService = require("turndown");
+
+var turndownService = new TurndownService();
+
+const PATH = "_old";
+
+const files = fs.readdirSync(PATH).map(f => PATH + "/" + f);
+
+console.log("Converting HTML files to Markdown");
+
+files.forEach(file => {
+  const { name, ext } = path.parse(file);
+
+  if (ext === ".html") {
+    const data = fs.readFileSync(file, { encoding: "utf8" });
+    const content = fm(data);
+
+    var markdown = turndownService.turndown(content.body);
+    console.log(file);
+
+    const contents = `
+---
+${content.frontmatter}
+---
+
+${markdown}
+  `.trim();
+
+    fs.writeFile(file, contents, "utf8", err => {
+      if (err) throw err;
+      console.log(name, "The file has been saved!");
+      fs.rename(file, PATH + "/" + name + ".md", err => {
+        if (err) throw err;
+        console.log("Rename complete!");
+      });
+    });
+  } else {
+    console.log("Skipping: ", file);
+  }
+});

@@ -9,7 +9,8 @@
     "build": "yarn css && jekyll build && yarn images && mv _site public",
     "local-build": "bundle exec jekyll build --incremental",
     "css": "postcss _assets/stylesheets/index.css -o _includes/bundle.css",
-    "images": "imagemin _assets/images/**/* --out-dir _site/assets/dists/img"
+    "images": "imagemin _assets/images/**/* --out-dir _site/assets/dists/img",
+    "convert-html-md": "node scripts/html-md"
   },
   "repository": "sabrinapeters/sabrinapeters.github.io",
   "dependencies": {},
@@ -17,11 +18,13 @@
     "autoprefixer": "^9.6.5",
     "browser-sync": "^2.26.7",
     "cssnano": "^4.1.10",
+    "front-matter": "^3.0.2",
     "gulp": "^4.0.2",
     "gulp-shell": "^0.7.1",
     "imagemin-cli": "^5.0.0",
     "postcss-cli": "^6.1.3",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "turndown": "^5.0.3"
   },
   "browserslist": [
     "last 1 version"
