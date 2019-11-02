@@ -15,6 +15,7 @@ Over the summer, I wrote a piece I called ["Evangelicalism and the Body, pt. 1"]
 Find last week's digest [here](https://sdrp.me/2019/10/25/weekly-digest-eleven/).
 
 Anyhow, here's what I've been consuming lately.
+
 ___
 
 ## Listening
@@ -43,6 +44,7 @@ And, as a follow-up to last week's piece on FBI surveillance of dissenters: ["Th
 ## Watching
 
 *GBBO* is over for the season, so now what? I've been watching *Modern Love* this week, too, but that's no substitute. C insists that I watch *Roseanne* and *Law and Order SVU* with him and I need something to break it up, because I am almost done with *Modern Love*.
+
 
 ___
 
