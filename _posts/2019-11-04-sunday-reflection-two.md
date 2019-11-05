@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Sunday Reflections, vol. 2: All Saints'
 date: 2019-11-05
+title: Sunday Reflections, vol. 2: All Saints'
 comments: true
 published: true
 ---
