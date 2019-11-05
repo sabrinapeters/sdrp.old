@@ -16,7 +16,7 @@ I made it to the sanctuary with about 6 minutes to spare. The Uber driver and I 
 
 As I flipped through the bulletin, I saw a pledge card and remembered it was still pledge month. I kept turning the pages and noticed a strange name next to "sermon". The feeling of being rudely and suddenly jolted out of a deep sleep continued as the individual whose name I did not recognize got up to the pulpit, and announced that he was going to give the stewardship sermon. 
 
-Inwardly, I rolled my eyes. I'd heard myriad versions of different sermons on tithing, stewardship, and giving to the local church, proof texts included. But this wasn't really a sermon, it was more of a talk about the feel-good benefits of making a pledge. I appreciated the honesty. 
+Inwardly, I rolled my eyes. I'd heard myriad versions of different sermons on tithing, stewardship, and giving to the local church, proof texts included. But this wasn't really a sermon, it was more of a talk about the feel-good benefits of making a pledge. I appreciated the honesty.[^1] 
 
 It's a good thing that, after being disappointed by the sermon, there's still the Eucharist in which to partake. When I was once asked which church event was my favorite, my answer was "Eucharist". It is the great leveling event: everyone comes to the table, puts out their hands, and then opens their mouths to receive the bread and the wine, the body and the blood of Christ; there is no discrimination. Someone people opt for a blessing instead, but everyone who is able comes to the altar (if not, the altar comes to you). (Granted, the individual who asked that question was probably thinking of something else as an event, but I said what I said and don't regret it.)
 
@@ -31,3 +31,5 @@ because they were surrounded by fallen, crispy leaves.
 
 ___
 I'm thinking about making "Sunday Reflections" a weekly! Not all posts will likely be this narrative heavy, but let me know what you think about that idea.
+
+[^1]: After looking through some notes, my memory has been jogged. It turns out the widow was the subject of the sermon one week ahead of the lectionary.
