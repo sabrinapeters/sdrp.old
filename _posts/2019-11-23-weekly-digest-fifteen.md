@@ -37,11 +37,11 @@ An article on the real dangers of nouthetic (i.e., "biblical") counseling (note:
 
 ## Listening
 
-## Podcasts
+### Podcasts
 
 I finally got around to the *The Magnificast* episode with Heath Carter about Evangelicalism. It is not optimistic, but it helps to have historical, social, and political context. Find it wherever you listen to podcasts, or this link: ["So, What's the Deal with Evangelicalism?"](https://player.fm/series/the-magnificast-2528501/so-whats-the-deal-with-evangelicalism-w-heath-carter)
 
-## Music
+### Music
 
 I tried listening to Billie Eilish the other day and I got bored. I don't understand the hype.
 
