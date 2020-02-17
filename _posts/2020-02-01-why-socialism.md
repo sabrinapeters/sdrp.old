@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How I Found Socialism
+title: Why Socialism?
 date: 2020-02-01
 comments: true
 published: true
