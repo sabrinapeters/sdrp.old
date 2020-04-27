@@ -5,7 +5,7 @@ subtitle: a review of _The Myth of the American Dream_
 date: 2020-04-27
 comments: true
 published: true
-___
+---
 
 The concept of a "worldview" is extremely familiar to me. I first learned it in high school as apologetics, through a curriculum by David Noebel: *‌Understanding the Times : The Collision of Today's Competing Worldviews*. In it, I learned how secularism, Marxism/Leninism, and New Age thought are all bad, but the Biblical way of looking at the world was the best. 
 
