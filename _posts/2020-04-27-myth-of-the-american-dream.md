@@ -2,7 +2,7 @@
 layout: post
 date: 2020-04-27
 title: Worldviews and Locations
-subtitle: a review of _The Myth of the American Dream_
+subtitle: a review of The Myth of the American Dream
 comments: true
 published: true
 ---
