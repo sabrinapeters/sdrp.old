@@ -10,8 +10,8 @@
   --base-space: 1rem;
   --double-space: calc(var(--base-space) * 2);
   --inverted-base-space: -1rem;
-  --serif: "Sentinel SSm A", "Sentinel SSm B", "Charter", Georgia, serif;
-  --sans-serif: "Whitney SSm A", "Whitney SSm B", "Avenir", Verdana, sans-serif;
+  --serif: "Source Serif Pro", "Charter", Georgia, serif;
+  --sans-serif: "Libre Franklin", "Avenir", Verdana, sans-serif;
   --container-width: 38rem;
 }
 
