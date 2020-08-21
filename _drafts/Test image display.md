@@ -2,7 +2,7 @@
 layout: post
 date: 2020-08-24
 title: Introducing Sancta Seminary Symposium
-published: false
+published: true
 comments: true
 ---
 
