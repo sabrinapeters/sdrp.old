@@ -7,7 +7,7 @@ import {
   GetStaticPaths,
   GetStaticProps,
   InferGetStaticPropsType,
-  NextPage
+  NextPage,
 } from "next";
 
 type JekyllParams = { slug: string[] };
@@ -30,7 +30,7 @@ export const getStaticPaths: GetStaticPaths<JekyllParams> = async () => {
 
   return {
     paths: slugs,
-    fallback: false
+    fallback: false,
   };
 };
 
@@ -39,37 +39,42 @@ export const getStaticProps: GetStaticProps<
   JekyllParams
 > = async ({ params }) => {
   const m = new MarkdownAPI("_posts");
-  console.log("params", params);
-
   const fullPath = "_posts/".concat(params!.slug.join("-")).concat(".md");
 
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
   const markdown = await m.markdownToHtml(content);
+
   return {
     props: {
       data: {
         layout: data.layout,
         title: data.title,
         subtitle: data.subtitle || "",
-        date: new Date(data.date).toString()
+        date: new Date(data.date).toString(),
       },
-      content: markdown
-    }
+      content: markdown,
+    },
   };
 };
 
 export const DefaultPage: NextPage<
   InferGetStaticPropsType<typeof getStaticProps>
-> = props => {
+> = (props) => {
   return (
     <div className="font-mono">
       <article className="container px-2 py-16 mx-auto grid grid-cols-12 gap-4 row-gap-16 divide-y">
         <header className="col-span-12">
-          <time dateTime={props.data.date} className="tracking-widest uppercase opacity-50 font-xs">
+          <time
+            dateTime={props.data.date}
+            className="tracking-widest uppercase opacity-50 font-xs"
+          >
             {format(new Date(props.data.date), "dd MMMM yyyy")}
           </time>
           <h1 className="text-4xl font-bold">{props.data.title}</h1>
+          {props.data.subtitle && (
+            <h2 className="text-lg font-light">{props.data.subtitle}</h2>
+          )}
         </header>
 
         <div className="col-span-12 lg:col-span-8 lg:col-start-5">
