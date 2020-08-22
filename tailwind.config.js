@@ -6,6 +6,9 @@ module.exports = {
     extend: {
       fontFamily: {
         mono: ["Source Code Pro", ...defaultTheme.fontFamily.mono]
+      },
+      screens: {
+        dark: { raw: "(prefers-color-scheme: dark)" }
       }
     }
   },
