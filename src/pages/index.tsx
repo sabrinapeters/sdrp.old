@@ -38,7 +38,7 @@ const IndexPage: NextPage = () => {
           drinks lots of tea, pretends to be smart on Twitter, and ponder how to
           destroy the kyriarchy.
         </p>
-        <p className="font-mono text-lg">
+        <p className="font-mono text-lg mb-4">
           She lives in the passive-aggressive, beautiful Seattle, with her
           spouse and their mostly clever, somewhat corny jokes. She currently
           serves as a Eucharistic minister at a local Episcopal church, and is
@@ -46,6 +46,25 @@ const IndexPage: NextPage = () => {
           six years ago. For the personality junkies out there, she is most
           likely a 5w6, and every MBTI test ever taken has been inconclusive,
           save for the “I” for “introvert”.
+        </p>
+        <p className="font-mono text-lg mb-4">
+          I'm a bibliophile, MDiv, and gentle agitator, working on dismantling
+          the{" "}
+          <a
+            href="https://sdrp.me/2018/01/03/kyriarchy/"
+            className="text-purple-700"
+          >
+            kyriarchy
+          </a>
+          .
+        </p>
+        <p className="font-mono text-lg mb-4">
+          I have a passion and knack for shepherding people toward the
+          information they need, due to my years of experience in libraries and
+          bookstores. Vocationally, this has me starting on the long path toward
+          ordination (or chaplaincy?). You can join me as I attempt to chronicle
+          this journey, think through theology, dismantle the kyriarchy, and
+          read books.
         </p>
       </article>
     </div>
