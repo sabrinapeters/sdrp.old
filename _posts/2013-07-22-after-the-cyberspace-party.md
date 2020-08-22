@@ -1,7 +1,7 @@
 ---
 layout: post
 title: After the Cyberspace Party
-status: publish
+date: 2013-07-22
 published: true
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: living in jerrytown
+date: 2013-06-03
 categories: []
 tags: []
 status: publish
@@ -11,11 +12,11 @@ author:
   login: admin
   email: charlespeters42@gmail.com
   display_name: admin
-  first_name: ''
-  last_name: ''
+  first_name: ""
+  last_name: ""
 ---
 
-It occurred to me a little while ago that I've lived in Lynchburg for almost a year, and I have not written anything on what it's like to live here, after living in the West. After a little reading,  I learned that the South is a hot climate culture, unlike the rest of the US, which is a cold climate culture. It was positively enlightening. (I cannot recommend the little book [_Foreign to Familiar_](http://www.amazon.com/Foreign-Familiar-Understanding-Climate-Cultures/dp/1581580223/ref=sr_1_1?s=books&ie=UTF8&qid=1370361140&sr=1-1&keywords=foreign+to+familiar) enough.)
+It occurred to me a little while ago that I've lived in Lynchburg for almost a year, and I have not written anything on what it's like to live here, after living in the West. After a little reading, I learned that the South is a hot climate culture, unlike the rest of the US, which is a cold climate culture. It was positively enlightening. (I cannot recommend the little book [_Foreign to Familiar_](http://www.amazon.com/Foreign-Familiar-Understanding-Climate-Cultures/dp/1581580223/ref=sr_1_1?s=books&ie=UTF8&qid=1370361140&sr=1-1&keywords=foreign+to+familiar) enough.)
 
 I moved from the Pacific Northwest, which is a definite cold climate culture, to the South, which is the American version of hot climate. In a nutshell, this means that Southerners are generally more focused on community, rather than the individual. They are less focused on time, and direct communication. Community ties are strong, so relationship is very important; it matters which community you came from. It is no surprise, then, when I observed so many differences between the West coast and the South. Here are some quick, random observations.
 

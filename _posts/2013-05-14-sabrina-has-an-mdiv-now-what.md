@@ -1,10 +1,11 @@
 ---
 layout: post
 title: sabrina has an mdiv. now what?
+date: 2013-05-14
 published: true
 ---
 
-A week ago on Saturday, I graduated with a Master of Divinity from [Corban University.](http://www.corban.edu/graduate/ministry/index.html)  Since this degree academically qualifies me to be a pastor, ever since I began pursing those studies, I'd get this question: "So...are you going to be a _pastor?_" In the beginning, I'd answer with an emphatic NO. A pastor preaches, and I can't/don't/won't preach. At first, I'd follow up that answer with a "because...women aren't supposed to preach. \[DUH\]" Well, then what in the world could women DO with a Master of Divinity? Teach, I suppose (but not preach, or teach Sunday School, etc.); lead worship, write curriculum, use it as a stepping stone to further education and scholarship; be a missionary, overseas, doing the work of a pastor but not given that title.
+A week ago on Saturday, I graduated with a Master of Divinity from [Corban University.](http://www.corban.edu/graduate/ministry/index.html)  Since this degree academically qualifies me to be a pastor, ever since I began pursing those studies, I'd get this question: "So...are you going to be a *pastor?*" In the beginning, I'd answer with an emphatic NO. A pastor preaches, and I can't/don't/won't preach. At first, I'd follow up that answer with a "because...women aren't supposed to preach. \[DUH\]" Well, then what in the world could women DO with a Master of Divinity? Teach, I suppose (but not preach, or teach Sunday School, etc.); lead worship, write curriculum, use it as a stepping stone to further education and scholarship; be a missionary, overseas, doing the work of a pastor but not given that title.
 
 This was before I took a class on the Pastoral Epistles, and subsequently called into question my complementarian convictions.
 
@@ -20,7 +21,7 @@ _So, now that you've got an MDiv, what are you gonna do, Sabrina? Are you going 
 
 _Are you going to pursue doctoral studies, Sabrina?_ I got that question, too, more than once. I would answer like this: "Um...I'm going to say, no?"
 
-_Well, what are you gonna do, now?_ For now, I don't see myself pursuing further studies, because it's simply not financially feasible, although I may find myself wanting to after a year off. I am going to continue my part-time job at the library, be the foremost supporter of my husband's work, continue learning how to be married and not single, read all the books I have wanted to read outside of my textbook lists, practice drumming, maybe plant a garden, learn to roast coffee, and _write._ (I've been told at various points in my life, by varying individuals, in one form or another, that I should practice writing. Maybe I'll make money with it someday, or maybe I won't.)
+_Well, what are you gonna do, now?_ For now, I don't see myself pursuing further studies, because it's simply not financially feasible, although I may find myself wanting to after a year off. I am going to continue my part-time job at the library, be the foremost supporter of my husband's work, continue learning how to be married and not single, read all the books I have wanted to read outside of my textbook lists, practice drumming, maybe plant a garden, learn to roast coffee, and *write.* (I've been told at various points in my life, by varying individuals, in one form or another, that I should practice writing. Maybe I'll make money with it someday, or maybe I won't.)
 
 In a nutshell, I'm going to do some things that I love and bring me joy, and practice some things that I love and should improve.  Will God take me back to school? Will he place me in local ministry? Maybe. I don't know. But one thing I know for sure: God tends to call me out of my comfort zone to discover the things I can do with his enablement, and to discover new things about myself. Until then, I wait, and enjoy this season of savoring life.
 
