@@ -5,6 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        serif: ["Source Serif Pro", ...defaultTheme.fontFamily.serif],
         mono: ["Source Code Pro", ...defaultTheme.fontFamily.mono]
       },
       screens: {

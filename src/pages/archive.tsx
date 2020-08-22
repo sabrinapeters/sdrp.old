@@ -55,9 +55,9 @@ export const getStaticProps: GetStaticProps<{
   };
 };
 
-const ArchivePage: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = (
-  props
-) => {
+type ArchivePageType = NextPage<InferGetStaticPropsType<typeof getStaticProps>>;
+
+const ArchivePage: ArchivePageType = (props) => {
   return (
     <div className="container px-2 py-16 mx-auto font-mono">
       {Object.keys(props.sortedByYear)
