@@ -7,7 +7,7 @@ import {
   GetStaticPaths,
   GetStaticProps,
   InferGetStaticPropsType,
-  NextPage,
+  NextPage
 } from "next";
 
 type JekyllParams = { slug: string[] };
@@ -30,7 +30,7 @@ export const getStaticPaths: GetStaticPaths<JekyllParams> = async () => {
 
   return {
     paths: slugs,
-    fallback: false,
+    fallback: false
   };
 };
 
@@ -51,19 +51,19 @@ export const getStaticProps: GetStaticProps<
         layout: data.layout,
         title: data.title,
         subtitle: data.subtitle || "",
-        date: new Date(data.date).toString(),
+        date: new Date(data.date).toString()
       },
-      content: markdown,
-    },
+      content: markdown
+    }
   };
 };
 
 export const DefaultPage: NextPage<
   InferGetStaticPropsType<typeof getStaticProps>
-> = (props) => {
+> = props => {
   return (
     <div className="font-mono">
-      <article className="container px-2 py-16 mx-auto grid grid-cols-12 gap-4 row-gap-16 divide-y">
+      <article className="container px-2 py-16 mx-auto grid grid-cols-12 gap-8 row-gap-16 divide-y">
         <header className="col-span-12">
           <time
             dateTime={props.data.date}
