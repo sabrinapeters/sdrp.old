@@ -45,50 +45,46 @@ const IndexPage: NextPage = () => {
         </figure>
       </aside>
       <article className="z-10 -mt-32 bg-gray-100 col-span-12 lg:col-start-7 lg:col-span-6 md:mt-0">
-        <header className="py-16 lg:py-32">
+        <header className="py-16 lg:py-16">
           <p
             className={classNames(
               gradient,
               "font-serif text-4xl font-black text-transparent bg-clip-text"
             )}
           >
-            Theologian, Podcaster, Writer.
+            Amateur Theologian, <br />
+            Podcaster, <br />
+            Writer.
           </p>
           <p className="mb-4 font-serif text-2xl">
-            Stomping the kyriarchy with ordinary words.
+            Stomping the{" "}
+            <Link href="/[...slug]" as="/2018/01/04/kyriarchy/">
+              <a className="text-purple-700">kyriarchy</a>
+            </Link>{" "}
+            with ordinary words.
           </p>
         </header>
         <section className="">
           <p className="font-mono text-lg mb-4">
             Sabrina reads lots of books (mostly comics and theology books
-            lately), drinks lots of tea, pretends to be smart on Twitter, and
-            ponder how to destroy the kyriarchy.
+            lately), drinks lots of tea, pretends to be smart on Twitter,
+            ponders how to destroy the kyriarchy, and produces content for{" "}
+            <a href="https://seminary.show" className="text-purple-700">
+              Seminary for the Rest of Us
+            </a>
+            .
           </p>
           <p className="font-mono text-lg mb-4">
             She lives in the passive-aggressive, beautiful Seattle, with her
             spouse and their mostly clever, somewhat corny jokes. She currently
-            serves as a Eucharistic minister at a local Episcopal church, and is
-            re-exploring her vocational direction, dusting off the MDiv she
-            earned six years ago. For the personality junkies out there, she is
-            most likely a 5w6, and every MBTI test ever taken has been
-            inconclusive, save for the “I” for “introvert”.
+            serves as an occasional preacher and Eucharistic minister at an
+            Episcopal church, and is re-exploring her vocational direction,
+            dusting off the MDiv she earned seven years ago. She is most likely
+            a 5w6, and every MBTI test ever taken has been inconclusive, save
+            for the “I” for “introvert”.
           </p>
-          <p className="font-mono text-lg mb-4">
-            I'm a bibliophile, MDiv, and gentle agitator, working on dismantling
-            the{" "}
-            <Link href="/[...slug]" as="/2018/01/04/kyriarchy/">
-              <a className="text-purple-700">kyriarchy</a>
-            </Link>
-            .
-          </p>
-          <p className="font-mono text-lg mb-4">
-            I have a passion and knack for shepherding people toward the
-            information they need, due to my years of experience in libraries
-            and bookstores. Vocationally, this has me starting on the long path
-            toward ordination (or chaplaincy?). You can join me as I attempt to
-            chronicle this journey, think through theology, dismantle the
-            kyriarchy, and read books.
-          </p>
+          <p className="font-mono text-lg mb-4"> </p>
+          <p className="font-mono text-lg mb-4"></p>
         </section>
       </article>
     </div>
