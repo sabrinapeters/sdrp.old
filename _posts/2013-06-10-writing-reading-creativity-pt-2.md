@@ -1,6 +1,7 @@
 ---
 layout: post
 title: writing, reading, & creativity, pt. 2
+date: 2013-05-14
 categories: []
 tags: []
 status: publish
@@ -11,8 +12,8 @@ author:
   login: admin
   email: charlespeters42@gmail.com
   display_name: admin
-  first_name: ''
-  last_name: ''
+  first_name: ""
+  last_name: ""
 ---
 
 In [part one](http://www.sabrina-peters.net/writing-reading-creativity-i/) of "writing, reading & creativity", I wrote about fear taking precedence over my desire to express creativity through writing. In this second part, I talk about how reading relates to my experience of creativity.
