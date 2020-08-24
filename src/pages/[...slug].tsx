@@ -75,7 +75,7 @@ const DefaultPage: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = (
         titleTemplate="%s | Sabrina Reyes-Peters"
         canonical="https://sdrp.me/"
         openGraph={{
-          title: props.data.title.concat(" | Sabrina Reyes-Peters"),
+          title: props.data.title,
           description: props.description,
           url,
         }}
