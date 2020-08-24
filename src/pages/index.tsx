@@ -8,6 +8,26 @@ const IndexPage: NextPage = () => {
   return (
     <div className="container py-4 mx-auto grid grid-cols-12 gap-8">
       <NextSeo title="Home" titleTemplate="%s | Sabrina Peters" />
+
+      <NextSeo
+        title="Home"
+        titleTemplate="%s | Sabrina Reyes-Peters"
+        canonical="https://sdrp.me/"
+        openGraph={{
+          title: "Sabrina Reyes-Peters",
+          description: "A blog post from Sabrina Reyes-Peters",
+          url: "https://sdrp.me/",
+          images: [
+            {
+              url: "https://sdrp.me/assets/images/tea-1920.jpg",
+            },
+          ],
+        }}
+        twitter={{
+          handle: "@sdrp",
+          cardType: "summary_large_image",
+        }}
+      />
       <aside className="col-span-12 lg:col-start-2 lg:col-span-5">
         <figure className={gradient}>
           <picture

@@ -78,6 +78,15 @@ const DefaultPage: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = (
           title: props.data.title,
           description: props.description,
           url,
+          images: [
+            {
+              url: "https://sdrp.me/assets/images/tea-1920.jpg",
+            },
+          ],
+        }}
+        twitter={{
+          handle: "@sdrp",
+          cardType: "summary_large_image",
         }}
       />
       <article className="container py-16 mx-auto grid grid-cols-12 gap-8 row-gap-16 divide-y">
