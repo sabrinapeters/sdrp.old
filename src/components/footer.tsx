@@ -1,6 +1,6 @@
 import ExtLink from "./ext-link";
 
-export default () => (
+const Footer = () => (
   <>
     <footer>
       <span>Deploy your own!</span>
@@ -21,3 +21,5 @@ export default () => (
     </footer>
   </>
 );
+
+export default Footer;

@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 import ExtLink from "./ext-link";
 
-export default {
+const components = {
   // default tags
   ol: "ol",
   ul: "ul",
@@ -12,3 +12,5 @@ export default {
 
   Code: dynamic(() => import("./code")),
 };
+
+export default components;

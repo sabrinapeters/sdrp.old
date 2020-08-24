@@ -2,7 +2,7 @@ import Head from "next/head";
 
 const ogImageUrl = "https://notion-blog.now.sh/og-image.png";
 
-export default ({ titlePre = "" }) => {
+const CustomHead = ({ titlePre = "" }) => {
   return (
     <header>
       <Head>
@@ -20,3 +20,5 @@ export default ({ titlePre = "" }) => {
     </header>
   );
 };
+
+export default CustomHead;
