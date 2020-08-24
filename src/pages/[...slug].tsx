@@ -4,6 +4,7 @@ import {
   InferGetStaticPropsType,
   NextPage,
 } from "next";
+import { useRouter } from "next/router";
 import { NextSeo } from "next-seo";
 import fs from "fs";
 import glob from "fast-glob";
@@ -36,7 +37,7 @@ export const getStaticPaths: GetStaticPaths<JekyllParams> = async () => {
 };
 
 export const getStaticProps: GetStaticProps<
-  { data: JekyllProps; content: string },
+  { data: JekyllProps; content: string; description: string },
   JekyllParams
 > = async ({ params }) => {
   const m = new MarkdownAPI("_posts");
@@ -46,6 +47,8 @@ export const getStaticProps: GetStaticProps<
   const { data, content } = matter(fileContents);
   const markdown = await m.markdownToHtml(content);
 
+  const description = content.substr(0, 90);
+
   return {
     props: {
       data: {
@@ -54,17 +57,29 @@ export const getStaticProps: GetStaticProps<
         subtitle: data.subtitle || "",
         date: new Date(data.date).toString(),
       },
+      description,
       content: markdown,
     },
   };
 };
 
-export const DefaultPage: NextPage<InferGetStaticPropsType<
-  typeof getStaticProps
->> = (props) => {
+const DefaultPage: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = (
+  props
+) => {
+  const router = useRouter();
+  const url = "https://sdrp.me".concat(router.asPath);
   return (
     <div className="font-mono">
-      <NextSeo title={props.data.title} titleTemplate="%s | Sabrina Peters" />
+      <NextSeo
+        title={props.data.title}
+        titleTemplate="%s | Sabrina Reyes-Peters"
+        canonical="https://sdrp.me/"
+        openGraph={{
+          title: props.data.title.concat(" | Sabrina Reyes-Peters"),
+          description: props.description,
+          url,
+        }}
+      />
       <article className="container py-16 mx-auto grid grid-cols-12 gap-8 row-gap-16 divide-y">
         <header className="col-span-12">
           <time
@@ -81,7 +96,7 @@ export const DefaultPage: NextPage<InferGetStaticPropsType<
 
         <div className="col-span-12 lg:col-span-8 lg:col-start-5">
           <section
-            className="py-16 prose lg:prose-xl"
+            className="py-16 prose md:prose-lg lg:prose-xl"
             dangerouslySetInnerHTML={{ __html: props.content }}
           />
         </div>
