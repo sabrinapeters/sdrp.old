@@ -2,7 +2,6 @@ import { GetStaticProps } from "next";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { NextSeo } from "next-seo";
-import Header from "../../components/header";
 import Heading from "../../components/heading";
 import components from "../../components/dynamic";
 import ReactJSXParser from "@zeit/react-jsx-parser";
