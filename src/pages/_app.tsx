@@ -17,7 +17,7 @@ const CustomApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   useEffect(() => {
     if (process.env.NODE_ENV === "production") {
       Fathom.load(SITE_ID, {
-        includedDomains: ["seminary.show"],
+        includedDomains: ["sdrp.me"],
       });
     }
   }, []);
