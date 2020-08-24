@@ -1,12 +1,11 @@
 name: Scheduled builds
 on:
   schedule:
-    - cron: '0 9 * * *'
+    - cron: "0 */8 * * *"
 
-jobs: 
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger Vercel
         run: curl -X GET ${{ secrets.vercel_webhook }}
-      
