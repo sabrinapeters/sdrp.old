@@ -1,36 +1,22 @@
-import Link from "next/link";
-import classNames from "@sindresorhus/class-names";
+import Head from "next/head";
 
-const gradient = "bg-gradient-to-r from-purple-500 via-pink-500 to-red-400";
+const ogImageUrl = "https://notion-blog.now.sh/og-image.png";
 
-export const PageHeader: React.FC = () => {
+export default ({ titlePre = "" }) => {
   return (
-    <header className="container mx-auto py-2 lg:py-8 px-2 grid grid-cols-12 gap-2 lg:gap-8 border-b border-gray-400">
-      <div className="col-span-12 lg:col-span-4">
-        <h1
-          className={classNames(
-            gradient,
-            "text-transparent bg-clip-text font-black font-serif text-2xl"
-          )}
-        >
-          Sabrina Peters
-        </h1>
-      </div>
-
-      <nav className="col-span-8 font-bold">
-        <ul className="w-full">
-          <li className="inline-block mr-8 text-lg">
-            <Link href="/">
-              <a className="text-purple-500 hover:text-purple-900">Home</a>
-            </Link>
-          </li>
-          <li className="inline-block text-lg">
-            <Link href="/archive">
-              <a className="text-purple-500 hover:text-purple-900">Archive</a>
-            </Link>
-          </li>
-        </ul>
-      </nav>
+    <header>
+      <Head>
+        <title>{titlePre ? `${titlePre} |` : ""} My Notion Blog</title>
+        <meta
+          name="description"
+          content="An example Next.js site using Notion for the blog"
+        />
+        <meta name="og:title" content="My Notion Blog" />
+        <meta property="og:image" content={ogImageUrl} />
+        <meta name="twitter:site" content="@_ijjk" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content={ogImageUrl} />
+      </Head>
     </header>
   );
 };

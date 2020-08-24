@@ -13,7 +13,7 @@ const IndexPage: NextPage = () => {
           <picture
             className="block w-full opacity-75"
             style={{
-              filter: "grayscale(50%)"
+              filter: "grayscale(50%)",
             }}
           >
             <img

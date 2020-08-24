@@ -24,7 +24,7 @@ export const getStaticProps: GetStaticProps<{
     (file: string): JekyllItem => {
       const fileContents = fs.readFileSync(file, "utf8");
       const {
-        data: { date, title }
+        data: { date, title },
       } = matter(fileContents);
       const f = file.split("/")[1].replace(/\.md$/, "");
 
@@ -33,7 +33,7 @@ export const getStaticProps: GetStaticProps<{
         date: new Date(date).toString(),
         title: title || "",
         year,
-        slug: [year, month, day, postname.join("-")].join("/")
+        slug: [year, month, day, postname.join("-")].join("/"),
       };
     }
   );
@@ -51,20 +51,20 @@ export const getStaticProps: GetStaticProps<{
           return acc;
         },
         {}
-      )
-    }
+      ),
+    },
   };
 };
 
 type ArchivePageType = NextPage<InferGetStaticPropsType<typeof getStaticProps>>;
 
-const ArchivePage: ArchivePageType = props => {
+const ArchivePage: ArchivePageType = (props) => {
   return (
     <div className="container px-2 py-16 mx-auto font-mono">
       <NextSeo title="Archives" titleTemplate="%s | Sabrina Peters" />
       {Object.keys(props.sortedByYear)
         .sort((a, b) => parseInt(b) - parseInt(a))
-        .map(year => {
+        .map((year) => {
           return (
             <div>
               <h2 className="mb-8 text-4xl opacity-50 text-purple-500">

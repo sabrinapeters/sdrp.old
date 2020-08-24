@@ -2,7 +2,7 @@ import {
   GetStaticPaths,
   GetStaticProps,
   InferGetStaticPropsType,
-  NextPage
+  NextPage,
 } from "next";
 import { NextSeo } from "next-seo";
 import fs from "fs";
@@ -31,7 +31,7 @@ export const getStaticPaths: GetStaticPaths<JekyllParams> = async () => {
 
   return {
     paths: slugs,
-    fallback: false
+    fallback: false,
   };
 };
 
@@ -52,16 +52,16 @@ export const getStaticProps: GetStaticProps<
         layout: data.layout,
         title: data.title,
         subtitle: data.subtitle || "",
-        date: new Date(data.date).toString()
+        date: new Date(data.date).toString(),
       },
-      content: markdown
-    }
+      content: markdown,
+    },
   };
 };
 
-export const DefaultPage: NextPage<
-  InferGetStaticPropsType<typeof getStaticProps>
-> = props => {
+export const DefaultPage: NextPage<InferGetStaticPropsType<
+  typeof getStaticProps
+>> = (props) => {
   return (
     <div className="font-mono">
       <NextSeo title={props.data.title} titleTemplate="%s | Sabrina Peters" />

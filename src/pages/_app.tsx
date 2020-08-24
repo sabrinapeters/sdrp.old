@@ -1,5 +1,5 @@
 import { AppProps } from "next/app";
-import { PageHeader } from "../components/header";
+import { PageHeader } from "../components/page-header";
 import "../styles.css";
 
 const CustomApp: React.FC<AppProps> = ({ Component, pageProps }) => {
