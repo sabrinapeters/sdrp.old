@@ -5,7 +5,7 @@ const gradient = "bg-gradient-to-r from-purple-500 via-pink-500 to-red-400";
 
 export const PageHeader: React.FC = () => {
   return (
-    <header className="container mx-auto py-2 lg:py-8 px-2 grid grid-cols-12 gap-2 lg:gap-8 border-b border-gray-400">
+    <header className="container mx-auto py-2 lg:py-8 px-2 grid grid-cols-12 gap-2 lg:gap-8 border-b border-gray-400 items-center">
       <div className="col-span-12 lg:col-span-4">
         <h1
           className={classNames(
@@ -17,19 +17,19 @@ export const PageHeader: React.FC = () => {
         </h1>
       </div>
 
-      <nav className="col-span-8 font-bold">
+      <nav className="col-span-8 font-bold font-serif">
         <ul className="w-full">
-          <li className="inline-block mr-8 text-lg">
+          <li className="inline-block mr-8 text-md">
             <Link href="/">
               <a className="text-purple-500 hover:text-purple-900">Home</a>
             </Link>
           </li>
-          <li className="inline-block mr-8 text-lg">
+          <li className="inline-block mr-8 text-md">
             <Link href="/blog">
               <a className="text-purple-500 hover:text-purple-900">Blog</a>
             </Link>
           </li>
-          <li className="inline-block text-lg">
+          <li className="inline-block text-md">
             <Link href="/archive">
               <a className="text-purple-500 hover:text-purple-900">Archive</a>
             </Link>

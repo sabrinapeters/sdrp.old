@@ -65,7 +65,7 @@ export const DefaultPage: NextPage<InferGetStaticPropsType<
   return (
     <div className="font-mono">
       <NextSeo title={props.data.title} titleTemplate="%s | Sabrina Peters" />
-      <article className="container px-2 py-16 mx-auto grid grid-cols-12 gap-8 row-gap-16 divide-y">
+      <article className="container py-16 mx-auto grid grid-cols-12 gap-8 row-gap-16 divide-y">
         <header className="col-span-12">
           <time
             dateTime={props.data.date}

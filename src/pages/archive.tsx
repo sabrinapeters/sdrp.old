@@ -60,42 +60,48 @@ type ArchivePageType = NextPage<InferGetStaticPropsType<typeof getStaticProps>>;
 
 const ArchivePage: ArchivePageType = (props) => {
   return (
-    <div className="container px-2 py-16 mx-auto font-mono">
+    <article className="container py-16 mx-auto font-mono">
       <NextSeo title="Archives" titleTemplate="%s | Sabrina Peters" />
-      {Object.keys(props.sortedByYear)
-        .sort((a, b) => parseInt(b) - parseInt(a))
-        .map((year) => {
-          return (
-            <div>
-              <h2 className="mb-8 text-4xl opacity-50 text-purple-500">
-                {year}
-              </h2>
+      <header>
+        <h1 className="font-mono text-4xl mb-4">Archive</h1>
+      </header>
+      <section>
+        {Object.keys(props.sortedByYear)
+          .sort((a, b) => parseInt(b) - parseInt(a))
+          .map((year) => {
+            return (
+              <div key={year}>
+                <h3 className="mb-8 text-2xl  text-purple-400">{year}</h3>
 
-              <ul className="mb-32 grid gap-8 grid-cols-12">
-                {props.sortedByYear[year].map((archiveItem, i) => {
-                  return (
-                    <li key={i} className="col-span-4">
-                      <Link href="/[...slug]" as={archiveItem.slug}>
-                        <a className="block">
-                          <time
-                            dateTime={archiveItem.date}
-                            className="block text-sm tracking-widest uppercase opacity-50"
-                          >
-                            {format(new Date(archiveItem.date), "dd MMMM yyyy")}
-                          </time>
-                          <span className="block text-lg font-semibold text-purple-700">
-                            {archiveItem.title}
-                          </span>
-                        </a>
-                      </Link>
-                    </li>
-                  );
-                })}
-              </ul>
-            </div>
-          );
-        })}
-    </div>
+                <ul className="mb-32 grid gap-8 grid-cols-12">
+                  {props.sortedByYear[year].map((archiveItem, i) => {
+                    return (
+                      <li key={i} className="col-span-6 lg:col-span-4">
+                        <Link href="/[...slug]" as={archiveItem.slug}>
+                          <a className="block">
+                            <time
+                              dateTime={archiveItem.date}
+                              className="block text-sm tracking-widest uppercase opacity-50"
+                            >
+                              {format(
+                                new Date(archiveItem.date),
+                                "dd MMMM yyyy"
+                              )}
+                            </time>
+                            <span className="block text-lg font-semibold text-purple-700">
+                              {archiveItem.title}
+                            </span>
+                          </a>
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            );
+          })}
+      </section>
+    </article>
   );
 };
 

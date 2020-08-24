@@ -1,5 +1,5 @@
+import { GetStaticProps } from "next";
 import Link from "next/link";
-import fetch from "node-fetch";
 import { useRouter } from "next/router";
 import Header from "../../components/header";
 import Heading from "../../components/heading";
@@ -11,7 +11,7 @@ import React, { CSSProperties, useEffect } from "react";
 import getBlogIndex from "../../lib/notion/getBlogIndex";
 import getNotionUsers from "../../lib/notion/getNotionUsers";
 import { getBlogLink, getDateStr } from "../../lib/blog-helpers";
-import { GetStaticProps } from "next";
+import { PostSharingUrl } from "../../components/sharing";
 
 // Get the data for each blog post
 export const getStaticProps: GetStaticProps<any, any> = async ({
@@ -129,7 +129,7 @@ const RenderPost: React.FC<{
   }
 
   return (
-    <article className="grid grid-cols-12 gap-8 container mx-auto">
+    <article className="grid grid-cols-12 gap-8 container mx-auto mb-8">
       <Header titlePre={post.Page} />
       {preview && (
         <div>
@@ -146,33 +146,35 @@ const RenderPost: React.FC<{
         <h1 className="text-4xl font-black font-serif">{post.Page || ""}</h1>
       </header>
 
-      <aside className="col-span-4 font-mono divide-y divide-gray-400">
+      <aside className="col-span-12 lg:col-span-4 font-mono divide-y divide-gray-400">
         {post.Date && (
-          <div className="posted uppercase block tracking-widest opacity-50">
-            {" "}
+          <div className="posted uppercase block tracking-widest opacity-50 py-4">
             {getDateStr(post.Date)}
           </div>
         )}
         {post.Authors.length > 0 && (
-          <div className="italic font-mono">By {post.Authors.join(" ")}</div>
+          <div className="italic font-mono py-4">By {post.Authors.join(" ")}</div>
         )}
-        <ul className="flex flex-wrap justify-start font-bold text-xxs">
+        <ul className="flex flex-wrap justify-start py-4">
           {post.Tags &&
             post.Tags.split(",").map((tag: string) => {
               return (
                 <li
                   key={tag}
-                  className="bg-purple-200 mr-2 mb-2 p-1 rounded-sm"
+                  className="bg-purple-300 mr-2 mb-2 p-1 rounded text-xs"
                 >
                   {tag}
                 </li>
               );
             })}
         </ul>
+
+        <PostSharingUrl title={post.Page || ""}  link={"https://sdrp.me".concat(router.asPath)} className="py-4" />
+
       </aside>
 
-      <section className="col-span-8">
-        <div className=" prose prose-xl font-serif">
+      <section className="col-span-12 lg:col-span-8 py-4">
+        <div className="prose lg:prose-xl font-serif">
           {(!post.content || post.content.length === 0) && (
             <p>This post has no content</p>
           )}
@@ -422,6 +424,12 @@ const RenderPost: React.FC<{
           })}
         </div>
       </section>
+
+      <footer className="col-span-12 font-mono py-4 text-center border-t border-gray-400">
+
+          <i className="text-sm">Comments are closed</i>
+
+      </footer>
     </article>
   );
 };

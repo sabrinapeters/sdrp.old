@@ -6,7 +6,6 @@ import {
   getDateStr,
   postIsPublished,
 } from "../../lib/blog-helpers";
-import { textBlock } from "../../lib/notion/renderers";
 import getNotionUsers from "../../lib/notion/getNotionUsers";
 import getBlogIndex from "../../lib/notion/getBlogIndex";
 import { GetStaticProps } from "next";
@@ -65,13 +64,13 @@ const BlogIndex: React.FC<IBlogIndexProps> = ({ posts = [], preview }) => {
           </div>
         </div>
       )}
-      <div className="container px-2 py-16 mx-auto font-serif">
-        <h1 className="font-mono text-3xl mb-4">Blog</h1>
+      <div className="container py-16 mx-auto font-serif">
+        <h1 className="font-mono text-4xl mb-4">Blog</h1>
         {posts.length === 0 && <p>There are no posts yet</p>}
         <div className="grid grid-cols-12 gap-8">
           {posts.map((post: any) => {
             return (
-              <div key={post.Slug} className="col-span-4">
+              <div key={post.Slug} className="col-span-12 lg:col-span-4">
                 {post.Date && (
                   <div className="block text-sm tracking-widest uppercase opacity-50 font-mono">
                     {getDateStr(post.Date)}
@@ -82,16 +81,6 @@ const BlogIndex: React.FC<IBlogIndexProps> = ({ posts = [], preview }) => {
                     <a className="text-purple-700">{post.Page}</a>
                   </Link>
                 </h3>
-                {post.Authors.length > 0 && (
-                  <div className="authors">By: {post.Authors.join(" ")}</div>
-                )}
-                <p>
-                  {(!post.preview || post.preview.length === 0) &&
-                    "No preview available"}
-                  {(post.preview || []).map((block: any, idx: number) =>
-                    textBlock(block, true, `${post.Slug}${idx}`)
-                  )}
-                </p>
               </div>
             );
           })}
