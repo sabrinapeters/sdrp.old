@@ -1,7 +1,7 @@
 import { GetStaticProps } from "next";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import Header from "../../components/header";
+import { NextSeo } from "next-seo";
 import Heading from "../../components/heading";
 import components from "../../components/dynamic";
 import ReactJSXParser from "@zeit/react-jsx-parser";
@@ -128,9 +128,30 @@ const RenderPost: React.FC<{
     );
   }
 
+  const url = "https://sdrp.me/" + post.Slug;
+
   return (
     <article className="grid grid-cols-12 gap-8 container mx-auto mb-8">
-      <Header titlePre={post.Page} />
+      <NextSeo
+        title={post.Page}
+        titleTemplate="%s | Sabrina Reyes-Peters"
+        canonical="https://sdrp.me/"
+        openGraph={{
+          title: post.Page,
+          description:
+            post.Description || "A blog post from Sabrina Reyes-Peters",
+          url,
+          images: [
+            {
+              url: "https://sdrp.me/assets/images/tea-1920.jpg",
+            },
+          ],
+        }}
+        twitter={{
+          handle: "@sdrp",
+          cardType: "summary_large_image",
+        }}
+      />
       {preview && (
         <div>
           <div>
@@ -153,7 +174,9 @@ const RenderPost: React.FC<{
           </div>
         )}
         {post.Authors.length > 0 && (
-          <div className="italic font-mono py-4">By {post.Authors.join(" ")}</div>
+          <div className="italic font-mono py-4">
+            By {post.Authors.join(" ")}
+          </div>
         )}
         <ul className="flex flex-wrap justify-start py-4">
           {post.Tags &&
@@ -169,8 +192,11 @@ const RenderPost: React.FC<{
             })}
         </ul>
 
-        <PostSharingUrl title={post.Page || ""}  link={"https://sdrp.me".concat(router.asPath)} className="py-4" />
-
+        <PostSharingUrl
+          title={post.Page || ""}
+          link={"https://sdrp.me".concat(router.asPath)}
+          className="py-4"
+        />
       </aside>
 
       <section className="col-span-12 lg:col-span-8 py-4">
@@ -426,9 +452,7 @@ const RenderPost: React.FC<{
       </section>
 
       <footer className="col-span-12 font-mono py-4 text-center border-t border-gray-400">
-
-          <i className="text-sm">Comments are closed</i>
-
+        <i className="text-sm">Comments are closed</i>
       </footer>
     </article>
   );
