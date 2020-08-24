@@ -1,14 +1,15 @@
-import fs from "fs";
-import glob from "fast-glob";
-import format from "date-fns/format";
-import matter from "gray-matter";
-import { MarkdownAPI } from "@charliewilco/mmm";
 import {
   GetStaticPaths,
   GetStaticProps,
   InferGetStaticPropsType,
   NextPage
 } from "next";
+import { NextSeo } from "next-seo";
+import fs from "fs";
+import glob from "fast-glob";
+import format from "date-fns/format";
+import matter from "gray-matter";
+import { MarkdownAPI } from "@charliewilco/mmm";
 
 type JekyllParams = { slug: string[] };
 type JekyllProps = {
@@ -63,6 +64,7 @@ export const DefaultPage: NextPage<
 > = props => {
   return (
     <div className="font-mono">
+      <NextSeo title={props.data.title} titleTemplate="%s | Sabrina Peters" />
       <article className="container px-2 py-16 mx-auto grid grid-cols-12 gap-8 row-gap-16 divide-y">
         <header className="col-span-12">
           <time

@@ -1,10 +1,13 @@
 import { NextPage } from "next";
+import Link from "next/link";
+import { NextSeo } from "next-seo";
 import classNames from "@sindresorhus/class-names";
 
 const IndexPage: NextPage = () => {
   const gradient = "bg-gradient-to-r from-purple-500 via-pink-500 to-red-400";
   return (
     <div className="container px-2 py-4 mx-auto grid grid-cols-12 gap-8">
+      <NextSeo title="Home" titleTemplate="%s | Sabrina Peters" />
       <aside className="col-span-12 lg:col-span-6">
         <figure className={gradient}>
           <picture
@@ -50,12 +53,9 @@ const IndexPage: NextPage = () => {
         <p className="font-mono text-lg mb-4">
           I'm a bibliophile, MDiv, and gentle agitator, working on dismantling
           the{" "}
-          <a
-            href="https://sdrp.me/2018/01/03/kyriarchy/"
-            className="text-purple-700"
-          >
-            kyriarchy
-          </a>
+          <Link href="/[...slug]" as="/2018/01/04/kyriarchy/">
+            <a className="text-purple-700">kyriarchy</a>
+          </Link>
           .
         </p>
         <p className="font-mono text-lg mb-4">

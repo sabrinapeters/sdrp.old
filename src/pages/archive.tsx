@@ -1,9 +1,10 @@
+import { GetStaticProps, InferGetStaticPropsType, NextPage } from "next";
+import Link from "next/link";
+import { NextSeo } from "next-seo";
 import fs from "fs";
 import glob from "fast-glob";
 import format from "date-fns/format";
 import matter from "gray-matter";
-import Link from "next/link";
-import { GetStaticProps, InferGetStaticPropsType, NextPage } from "next";
 
 type JekyllItem = {
   title: string;
@@ -60,6 +61,7 @@ type ArchivePageType = NextPage<InferGetStaticPropsType<typeof getStaticProps>>;
 const ArchivePage: ArchivePageType = props => {
   return (
     <div className="container px-2 py-16 mx-auto font-mono">
+      <NextSeo title="Archives" titleTemplate="%s | Sabrina Peters" />
       {Object.keys(props.sortedByYear)
         .sort((a, b) => parseInt(b) - parseInt(a))
         .map(year => {
