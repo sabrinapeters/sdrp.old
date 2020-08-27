@@ -5,7 +5,7 @@ export interface ISharingURLProps {
 }
 
 export function PostSharingUrl(props: ISharingURLProps) {
-  var text = encodeURIComponent(props.title + " | Charlie Peters");
+  var text = encodeURIComponent(props.title + " | Sabrina Reyes-Peters");
   var url = encodeURIComponent(props.link);
   const TwitterLink =
     "https://twitter.com/intent/tweet/?text=" + text + "&url=" + url;
