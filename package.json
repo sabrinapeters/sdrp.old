@@ -36,6 +36,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^3.11.0",
+    "react-use": "^15.3.3",
+    "rss-parser": "^3.9.0",
     "source-serif-pro": "^3.1.0",
     "tailwindcss": "^1.7.3",
     "typeface-source-code-pro": "^1.1.3",
