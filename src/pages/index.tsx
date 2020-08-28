@@ -1,12 +1,34 @@
-import { NextPage } from "next";
+import { NextPage, GetStaticProps, InferGetStaticPropsType } from "next";
+import Parser from "rss-parser";
 import Link from "next/link";
 import { NextSeo } from "next-seo";
 import classNames from "@sindresorhus/class-names";
+import { AudioBox } from "../components/audio";
 
-const IndexPage: NextPage = () => {
+export const getStaticProps: GetStaticProps<{
+  currentEpisode: Parser.Item;
+}> = async () => {
+  const p = new Parser();
+
+  let feed = await p.parseURL("https://anchor.fm/s/11018c34/podcast/rss");
+  let currentEpisode = feed.items![0];
+
+  return {
+    props: {
+      currentEpisode,
+    },
+  };
+};
+
+const IndexPage: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = (
+  props
+) => {
   const gradient = "bg-gradient-to-r from-purple-500 via-pink-500 to-red-400";
   return (
-    <div className="container py-4 mx-auto grid grid-cols-12 gap-8">
+    <div
+      className="container py-4 mx-auto grid grid-cols-12 gap-8"
+      style={{ gridTemplateRows: "auto 1fr" }}
+    >
       <NextSeo title="Home" titleTemplate="%s | Sabrina Peters" />
 
       <NextSeo
@@ -28,7 +50,7 @@ const IndexPage: NextPage = () => {
           cardType: "summary_large_image",
         }}
       />
-      <aside className="col-span-12 lg:col-start-2 lg:col-span-5">
+      <aside className="col-span-12 col-start-1 lg:col-start-2 lg:col-span-5">
         <figure className={gradient}>
           <picture
             className="block w-full opacity-75"
@@ -44,7 +66,8 @@ const IndexPage: NextPage = () => {
           </picture>
         </figure>
       </aside>
-      <article className="z-10 -mt-32 bg-gray-100 col-span-12 lg:col-start-7 lg:col-span-6 md:mt-0">
+
+      <article className=" bg-gray-100 col-span-12 lg:col-start-7 lg:row-span-2 lg:col-span-6 md:mt-0">
         <header className="py-16 lg:py-16">
           <p
             className={classNames(
@@ -83,10 +106,31 @@ const IndexPage: NextPage = () => {
             a 5w6, and every MBTI test ever taken has been inconclusive, save
             for the “I” for “introvert”.
           </p>
-          <p className="font-mono text-lg mb-4"> </p>
-          <p className="font-mono text-lg mb-4"></p>
         </section>
       </article>
+      <aside className="col-span-12 lg:col-span-5 lg:col-start-2 lg:row-start-2 ">
+        <figure className="">
+          <h3 className="font-serif mb-4 text-lg">
+            Latest Episode of{" "}
+            <i className="font-bold text-pink-500">
+              Seminary for the Rest of Us
+            </i>
+          </h3>
+          <div className="bg-purple-800 bg-gradient-to-tr from-purple-500 via-pink-500 to-red-400 text-gray-100 p-4 rounded-lg shadow-xl text-center mb-4">
+            <p className="py-4 text-xl font-bold font-serif">
+              {props.currentEpisode.title}
+            </p>
+            <AudioBox src={props.currentEpisode.enclosure!.url} />
+          </div>
+          <p className="font-mono">
+            You can find all the episodes{" "}
+            <a href="https://seminary.show/" className="text-purple-700">
+              here
+            </a>
+            .
+          </p>
+        </figure>
+      </aside>
     </div>
   );
 };
