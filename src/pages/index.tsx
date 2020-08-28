@@ -116,7 +116,7 @@ const IndexPage: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = (
               Seminary for the Rest of Us
             </i>
           </h3>
-          <div className="bg-purple-800 text-gray-100 p-4 rounded-lg shadow-xl text-center mb-4">
+          <div className="bg-purple-800 bg-gradient-to-tr from-purple-500 via-pink-500 to-red-400 text-gray-100 p-4 rounded-lg shadow-xl text-center mb-4">
             <p className="py-4 text-xl font-bold font-serif">
               {props.currentEpisode.title}
             </p>
