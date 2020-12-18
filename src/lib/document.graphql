@@ -1,0 +1,69 @@
+query FullPostBySlug($slug: ID!) {
+  PostItem(id: $slug) {
+    slug
+    published_at
+    first_published_at
+    id
+    content {
+      long_text
+      intro
+      title
+      image
+      author {
+        name
+        content
+      }
+    }
+  }
+  PostItems(per_page: 3, sort_by: "first_published_at:desc") {
+    items {
+      slug
+      published_at
+      first_published_at
+      content {
+        long_text
+        intro
+        title
+        image
+        author {
+          name
+          content
+        }
+      }
+    }
+  }
+}
+
+query AllPostsHome {
+  PostItems(sort_by: "first_published_at:desc") {
+    items {
+      slug
+      published_at
+      first_published_at
+      content {
+        long_text
+        intro
+        title
+        image
+        author {
+          name
+          content
+        }
+      }
+    }
+  }
+}
+
+query PostsWithSlug {
+  PostItems {
+    items {
+      slug
+    }
+  }
+}
+
+query PostBySlug($slug: ID!) {
+  PostItem(id: $slug) {
+    slug
+  }
+}
