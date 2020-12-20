@@ -6,12 +6,9 @@ import { GetStaticProps } from "next";
 
 interface IBlogIndexProps {
   query: IAllPostsHomeQuery;
-  preview: boolean;
 }
 
-export const getStaticProps: GetStaticProps<IBlogIndexProps, any> = async ({
-  preview,
-}) => {
+export const getStaticProps: GetStaticProps<IBlogIndexProps> = async () => {
   const client = new GraphQLClient("https://gapi.storyblok.com/v1/api", {
     headers: {
       Token: "iKCAUcE4okyfep10vaGr3Att",
@@ -22,29 +19,17 @@ export const getStaticProps: GetStaticProps<IBlogIndexProps, any> = async ({
 
   return {
     props: {
-      preview: preview || false,
       query: data,
     },
     revalidate: 10,
   };
 };
 
-const BlogIndex: React.FC<IBlogIndexProps> = ({ query, preview }) => {
+const BlogIndex: React.FC<IBlogIndexProps> = ({ query }) => {
   const posts = query.PostItems?.items;
   return (
     <>
       <Header titlePre="Blog" />
-      {preview && (
-        <div>
-          <div>
-            <b>Note:</b>
-            {` `}Viewing in preview mode{" "}
-            <Link href={`/api/clear-preview`}>
-              <button>Exit Preview</button>
-            </Link>
-          </div>
-        </div>
-      )}
       <div className="container py-16 mx-auto font-serif">
         <h1 className="font-mono text-4xl mb-4">Blog</h1>
         {posts?.length === 0 && <p>There are no posts yet</p>}

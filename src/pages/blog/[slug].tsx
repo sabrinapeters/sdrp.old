@@ -31,8 +31,6 @@ export const getStaticProps: GetStaticProps<
     slug: "posts/".concat(params?.slug!),
   });
 
-  console.log(data);
-
   return {
     props: {
       preview: !!preview,
@@ -57,7 +55,7 @@ export async function getStaticPaths() {
     },
   });
   const allPosts = await getSdk(client).PostsWithSlug();
-  console.log(allPosts.PostItems?.items);
+
   return {
     paths:
       allPosts.PostItems?.items?.map((post) => `/blog/${post?.slug}`) || [],
@@ -80,9 +78,6 @@ const RenderPost: React.FC<IPageProps> = (props) => {
     return <div>Loading...</div>;
   }
 
-  // if you don't have a post at this point, and are not
-  // loading one from fallback then redirect back to the index
-  console.log(post);
   if (!post) {
     return (
       <div>
