@@ -15,23 +15,6 @@ query FullPostBySlug($slug: ID!) {
       }
     }
   }
-  PostItems(per_page: 3, sort_by: "first_published_at:desc") {
-    items {
-      slug
-      published_at
-      first_published_at
-      content {
-        long_text
-        intro
-        title
-        image
-        author {
-          name
-          content
-        }
-      }
-    }
-  }
 }
 
 query AllPostsHome {

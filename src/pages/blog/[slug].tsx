@@ -1,9 +1,7 @@
+import React from "react";
 import { GetStaticProps } from "next";
-import Link from "next/link";
 import { useRouter } from "next/router";
 import { NextSeo } from "next-seo";
-
-import React from "react";
 
 import { getDateStr } from "../../lib/blog-helpers";
 import { PostSharingUrl } from "../../components/sharing";
@@ -33,6 +31,8 @@ export const getStaticProps: GetStaticProps<
     slug: "posts/".concat(params?.slug!),
   });
 
+  console.log(data);
+
   return {
     props: {
       preview: !!preview,
@@ -57,6 +57,7 @@ export async function getStaticPaths() {
     },
   });
   const allPosts = await getSdk(client).PostsWithSlug();
+  console.log(allPosts.PostItems?.items);
   return {
     paths:
       allPosts.PostItems?.items?.map((post) => `/blog/${post?.slug}`) || [],
@@ -66,7 +67,7 @@ export async function getStaticPaths() {
 
 const RenderPost: React.FC<IPageProps> = (props) => {
   const router = useRouter();
-  const post = props.query.PostItem?.content;
+  const post = props.query?.PostItem;
   // useEffect(() => {
   //   if (redirect && !post) {
   //     router.replace(redirect);
@@ -81,6 +82,7 @@ const RenderPost: React.FC<IPageProps> = (props) => {
 
   // if you don't have a post at this point, and are not
   // loading one from fallback then redirect back to the index
+  console.log(post);
   if (!post) {
     return (
       <div>
@@ -91,17 +93,18 @@ const RenderPost: React.FC<IPageProps> = (props) => {
     );
   }
 
-  const url = "https://sdrp.me/" + props.query.PostItem?.slug;
-
+  const url = "https://sdrp.me/" + props.query?.PostItem?.slug;
+  const { content } = post;
   return (
     <article className="grid grid-cols-12 gap-8 container mx-auto mb-8">
       <NextSeo
-        title={post.title!}
+        title={content?.title!}
         titleTemplate="%s | Sabrina Reyes-Peters"
         canonical="https://sdrp.me/"
         openGraph={{
-          title: post.title!,
-          description: post.intro || "A blog post from Sabrina Reyes-Peters",
+          title: content?.title!,
+          description:
+            content?.intro || "A blog post from Sabrina Reyes-Peters",
           url,
           images: [
             {
@@ -114,21 +117,8 @@ const RenderPost: React.FC<IPageProps> = (props) => {
           cardType: "summary_large_image",
         }}
       />
-      {props.preview && (
-        <div>
-          <div>
-            <b>Note:</b>
-            {` `}Viewing in preview mode{" "}
-            <Link
-              href={`/api/clear-preview?slug=${props.query.PostItem?.slug}`}
-            >
-              <button>Exit Preview</button>
-            </Link>
-          </div>
-        </div>
-      )}
       <header className="col-span-12 py-32 border-t-0">
-        <h1 className="text-4xl font-black font-serif">{post.title!}</h1>
+        <h1 className="text-4xl font-black font-serif">{content?.title!}</h1>
       </header>
 
       <aside className="col-span-12 lg:col-span-4 font-mono divide-y divide-gray-400">
@@ -137,8 +127,8 @@ const RenderPost: React.FC<IPageProps> = (props) => {
             {getDateStr(props.query.PostItem.published_at)}
           </div>
         )}
-        {post.author && (
-          <div className="italic font-mono py-4">By {post.author.name}</div>
+        {content?.author && (
+          <div className="italic font-mono py-4">By {content?.author.name}</div>
         )}
         {/* <ul className="flex flex-wrap justify-start py-4">
           {post.Tags &&
@@ -155,7 +145,7 @@ const RenderPost: React.FC<IPageProps> = (props) => {
         </ul> */}
 
         <PostSharingUrl
-          title={post.title || ""}
+          title={content?.title || ""}
           link={"https://sdrp.me".concat(router.asPath)}
           className="py-4"
         />

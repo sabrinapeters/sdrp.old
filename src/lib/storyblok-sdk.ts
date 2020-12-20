@@ -232,6 +232,7 @@ export type IPostComponent = {
   _uid: Maybe<Scalars['String']>;
   author: Maybe<IStory>;
   component: Maybe<Scalars['String']>;
+  date: Maybe<Scalars['String']>;
   image: Maybe<Scalars['String']>;
   intro: Maybe<Scalars['String']>;
   long_text: Maybe<Scalars['JsonScalar']>;
@@ -541,20 +542,6 @@ export type IFullPostBySlugQuery = (
         & Pick<IStory, 'name' | 'content'>
       )> }
     )> }
-  )>, PostItems: Maybe<(
-    { __typename?: 'PostItems' }
-    & { items: Maybe<Array<Maybe<(
-      { __typename?: 'PostItem' }
-      & Pick<IPostItem, 'slug' | 'published_at' | 'first_published_at'>
-      & { content: Maybe<(
-        { __typename?: 'PostComponent' }
-        & Pick<IPostComponent, 'long_text' | 'intro' | 'title' | 'image'>
-        & { author: Maybe<(
-          { __typename?: 'Story' }
-          & Pick<IStory, 'name' | 'content'>
-        )> }
-      )> }
-    )>>> }
   )> }
 );
 
@@ -623,23 +610,6 @@ export const FullPostBySlugDocument = gql`
       author {
         name
         content
-      }
-    }
-  }
-  PostItems(per_page: 3, sort_by: "first_published_at:desc") {
-    items {
-      slug
-      published_at
-      first_published_at
-      content {
-        long_text
-        intro
-        title
-        image
-        author {
-          name
-          content
-        }
       }
     }
   }
