@@ -1,84 +1,52 @@
 import Link from "next/link";
-import Header from "../../components/header";
+import format from "date-fns/format";
 
-import {
-  getBlogLink,
-  getDateStr,
-  postIsPublished,
-} from "../../lib/blog-helpers";
-import getNotionUsers from "../../lib/notion/getNotionUsers";
-import getBlogIndex from "../../lib/notion/getBlogIndex";
+import Header from "../../components/header";
+import { IAllPostsHomeQuery } from "../../lib/storyblok-sdk";
+import { storyBlok } from "../../lib/client";
 import { GetStaticProps } from "next";
 
-export const getStaticProps: GetStaticProps<any, any> = async ({ preview }) => {
-  const postsTable = await getBlogIndex();
+interface IBlogIndexProps {
+  query: IAllPostsHomeQuery;
+}
 
-  const authorsToGet: Set<string> = new Set();
-  const posts: any[] = Object.keys(postsTable)
-    .map((slug) => {
-      const post = postsTable[slug];
-      // remove draft posts in production
-      if (!preview && !postIsPublished(post)) {
-        return null;
-      }
-      post.Authors = post.Authors || [];
-      for (const author of post.Authors) {
-        authorsToGet.add(author);
-      }
-      return post;
-    })
-    .filter(Boolean);
-
-  const { users } = await getNotionUsers([...authorsToGet]);
-
-  posts.map((post) => {
-    post.Authors = post.Authors.map((id: string) => users[id].full_name);
-  });
-
+export const getStaticProps: GetStaticProps<IBlogIndexProps> = async () => {
+  const data = await storyBlok.AllPostsHome();
+  if (data.PostItems?.items) {
+    data.PostItems.items = data.PostItems.items.sort((a, b) => {
+      const strA = new Date(a?.content?.date!).getTime() || 0;
+      const strB = new Date(b?.content?.date!).getTime() || 0;
+      return strB - strA;
+    });
+  }
   return {
     props: {
-      preview: preview || false,
-      posts,
+      query: data,
     },
     revalidate: 10,
   };
 };
 
-interface IBlogIndexProps {
-  posts: any;
-  preview: boolean;
-}
-
-const BlogIndex: React.FC<IBlogIndexProps> = ({ posts = [], preview }) => {
+const BlogIndex: React.FC<IBlogIndexProps> = ({ query }) => {
+  const posts = query.PostItems?.items;
   return (
     <>
       <Header titlePre="Blog" />
-      {preview && (
-        <div>
-          <div>
-            <b>Note:</b>
-            {` `}Viewing in preview mode{" "}
-            <Link href={`/api/clear-preview`}>
-              <button>Exit Preview</button>
-            </Link>
-          </div>
-        </div>
-      )}
       <div className="container py-16 mx-auto font-serif">
         <h1 className="font-mono text-4xl mb-4">Blog</h1>
-        {posts.length === 0 && <p>There are no posts yet</p>}
+        {posts?.length === 0 && <p>There are no posts yet</p>}
         <div className="grid grid-cols-12 gap-8">
-          {posts.map((post: any) => {
+          {posts?.map((post) => {
             return (
-              <div key={post.Slug} className="col-span-12 lg:col-span-4">
-                {post.Date && (
+              <div key={post?.slug} className="col-span-12 lg:col-span-4">
+                {post?.content?.date && (
                   <div className="block text-sm tracking-widest uppercase opacity-50 font-mono">
-                    {getDateStr(post.Date)}
+                    {format(new Date(post.content.date), "dd MMMM yyyy")}
                   </div>
                 )}
                 <h3 className="font-bold text-xl mb-4">
-                  <Link href="/blog/[slug]" as={getBlogLink(post.Slug)}>
-                    <a className="text-purple-700">{post.Page}</a>
+                  <Link href="/blog/[slug]" as={`/blog/${post?.slug}`}>
+                    <a className="text-purple-700">{post?.content?.title}</a>
                   </Link>
                 </h3>
               </div>
