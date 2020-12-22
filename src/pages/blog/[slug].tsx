@@ -2,12 +2,12 @@ import React from "react";
 import { GetStaticProps } from "next";
 import { useRouter } from "next/router";
 import { NextSeo } from "next-seo";
+import format from "date-fns/format";
 
-import { getDateStr } from "../../lib/blog-helpers";
 import { PostSharingUrl } from "../../components/sharing";
-import { getSdk, IFullPostBySlugQuery } from "../../lib/storyblok-sdk";
-import { GraphQLClient } from "graphql-request";
+import { IFullPostBySlugQuery } from "../../lib/storyblok-sdk";
 import RichTextResolver from "storyblok-js-client/dist/rich-text-resolver.cjs";
+import { storyBlok } from "../../lib/client";
 
 interface IPageProps {
   preview: boolean;
@@ -19,14 +19,7 @@ export const getStaticProps: GetStaticProps<
   IPageProps,
   { slug: string }
 > = async ({ params, preview }) => {
-  const client = new GraphQLClient("https://gapi.storyblok.com/v1/api", {
-    headers: {
-      Token: "iKCAUcE4okyfep10vaGr3Att",
-      Version: "published",
-    },
-  });
-
-  const data = await getSdk(client).FullPostBySlug({
+  const data = await storyBlok.FullPostBySlug({
     // TODO: full_slug vs slug
     slug: "posts/".concat(params?.slug!),
   });
@@ -48,13 +41,7 @@ export const getStaticProps: GetStaticProps<
 
 // Return our list of blog posts to prerender
 export async function getStaticPaths() {
-  const client = new GraphQLClient("https://gapi.storyblok.com/v1/api", {
-    headers: {
-      Token: "iKCAUcE4okyfep10vaGr3Att",
-      Version: "published",
-    },
-  });
-  const allPosts = await getSdk(client).PostsWithSlug();
+  const allPosts = await storyBlok.PostsWithSlug();
 
   return {
     paths:
@@ -117,9 +104,9 @@ const RenderPost: React.FC<IPageProps> = (props) => {
       </header>
 
       <aside className="col-span-12 lg:col-span-4 font-mono divide-y divide-gray-400">
-        {props.query.PostItem?.published_at && (
+        {content?.date && (
           <div className="posted uppercase block tracking-widest opacity-50 py-4">
-            {getDateStr(props.query.PostItem.published_at)}
+            {format(new Date(content?.date), "dd MMMM yyyy")}
           </div>
         )}
         {content?.author && (

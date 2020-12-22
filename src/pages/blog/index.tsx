@@ -1,7 +1,9 @@
 import Link from "next/link";
+import format from "date-fns/format";
+
 import Header from "../../components/header";
-import { getSdk, IAllPostsHomeQuery } from "../../lib/storyblok-sdk";
-import { GraphQLClient } from "graphql-request";
+import { IAllPostsHomeQuery } from "../../lib/storyblok-sdk";
+import { storyBlok } from "../../lib/client";
 import { GetStaticProps } from "next";
 
 interface IBlogIndexProps {
@@ -9,14 +11,14 @@ interface IBlogIndexProps {
 }
 
 export const getStaticProps: GetStaticProps<IBlogIndexProps> = async () => {
-  const client = new GraphQLClient("https://gapi.storyblok.com/v1/api", {
-    headers: {
-      Token: "iKCAUcE4okyfep10vaGr3Att",
-      Version: "published",
-    },
-  });
-  const data = await getSdk(client).AllPostsHome();
-
+  const data = await storyBlok.AllPostsHome();
+  if (data.PostItems?.items) {
+    data.PostItems.items = data.PostItems.items.sort((a, b) => {
+      const strA = new Date(a?.content?.date!).getTime() || 0;
+      const strB = new Date(b?.content?.date!).getTime() || 0;
+      return strB - strA;
+    });
+  }
   return {
     props: {
       query: data,
@@ -37,9 +39,9 @@ const BlogIndex: React.FC<IBlogIndexProps> = ({ query }) => {
           {posts?.map((post) => {
             return (
               <div key={post?.slug} className="col-span-12 lg:col-span-4">
-                {post?.published_at && (
+                {post?.content?.date && (
                   <div className="block text-sm tracking-widest uppercase opacity-50 font-mono">
-                    {post?.published_at}
+                    {format(new Date(post.content.date), "dd MMMM yyyy")}
                   </div>
                 )}
                 <h3 className="font-bold text-xl mb-4">
@@ -50,7 +52,6 @@ const BlogIndex: React.FC<IBlogIndexProps> = ({ query }) => {
               </div>
             );
           })}
-          ``
         </div>
       </div>
     </>

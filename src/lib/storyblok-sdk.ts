@@ -536,7 +536,7 @@ export type IFullPostBySlugQuery = (
     & Pick<IPostItem, 'slug' | 'published_at' | 'first_published_at' | 'id'>
     & { content: Maybe<(
       { __typename?: 'PostComponent' }
-      & Pick<IPostComponent, 'long_text' | 'intro' | 'title' | 'image'>
+      & Pick<IPostComponent, 'long_text' | 'intro' | 'title' | 'image' | 'date'>
       & { author: Maybe<(
         { __typename?: 'Story' }
         & Pick<IStory, 'name' | 'content'>
@@ -557,7 +557,7 @@ export type IAllPostsHomeQuery = (
       & Pick<IPostItem, 'slug' | 'published_at' | 'first_published_at'>
       & { content: Maybe<(
         { __typename?: 'PostComponent' }
-        & Pick<IPostComponent, 'long_text' | 'intro' | 'title' | 'image'>
+        & Pick<IPostComponent, 'long_text' | 'intro' | 'title' | 'image' | 'date'>
         & { author: Maybe<(
           { __typename?: 'Story' }
           & Pick<IStory, 'name' | 'content'>
@@ -607,6 +607,7 @@ export const FullPostBySlugDocument = gql`
       intro
       title
       image
+      date
       author {
         name
         content
@@ -627,6 +628,7 @@ export const AllPostsHomeDocument = gql`
         intro
         title
         image
+        date
         author {
           name
           content

@@ -9,6 +9,7 @@ query FullPostBySlug($slug: ID!) {
       intro
       title
       image
+      date
       author {
         name
         content
@@ -28,6 +29,7 @@ query AllPostsHome {
         intro
         title
         image
+        date
         author {
           name
           content
