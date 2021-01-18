@@ -1,0 +1,18 @@
+generates:
+  ./src/lib/storyblok-sdk.ts:
+    schema:
+      - https://gapi.storyblok.com/v1/api:
+          headers:
+           Token: iKCAUcE4okyfep10vaGr3Att
+           Version: published
+
+    documents: "./src/lib/*.graphql"
+    config:
+      useIndexSignature: true
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-graphql-request
+config:
+  typesPrefix: I
+  avoidOptionals: true
