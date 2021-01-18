@@ -8646,10 +8646,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typeface-source-code-pro@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/typeface-source-code-pro/-/typeface-source-code-pro-1.1.3.tgz#46113e0ad1729ed2a6b950bb4a77748f65bbf6ef"
-  integrity sha512-BAQ8I7Xy5zS5+KuG+gjRPNYCdfwL8vSF9jT8q9wzCRiiOG4h7id5zt8wcQx59riGRbRsgycRfs/ubyAm2z/FJQ==
+typeface-source-code-pro@^1.1.13:
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/typeface-source-code-pro/-/typeface-source-code-pro-1.1.13.tgz#88c8787f90294d00c3b05c35adc096a2d07d922f"
+  integrity sha512-TX3c89uW9uc5SJNFWY8HBFkZqcxcNY7nJz0rw+0Pk2ZVsog/v2d04yKRsPU+jJI4wFegOvWXbOWt927i/xUdIw==
 
 typescript@^4.0.2:
   version "4.0.2"
