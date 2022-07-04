@@ -6952,11 +6952,6 @@ purgecss@^2.3.0:
     postcss "7.0.32"
     postcss-selector-parser "^6.0.2"
 
-qs@^6.9.4:
-  version "6.9.4"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.4.tgz#9090b290d1f91728d3c22e54843ca44aea5ab687"
-  integrity sha512-A1kFqHekCTM7cz0udomYUoYNWjBebHm/5wzU/XqrBRBNWectVH0QIiN+NEcZ0Dte5hvzHwbr8+XQmguPhJ6WdQ==
-
 qs@~6.5.2:
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
@@ -8044,12 +8039,10 @@ stealthy-require@^1.1.1:
   resolved "https://registry.yarnpkg.com/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"
   integrity sha1-NbCYdbT/SfJqd35QmzCQoyJr8ks=
 
-storyblok-js-client@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/storyblok-js-client/-/storyblok-js-client-3.3.0.tgz#a00b1ff78aca7ab8b141c2cacbec0f197d96692d"
-  integrity sha512-1vo3n0Z26zERzvVoXzDSxLXiBUt4K3eme2wAa97MxhSdfrciWv7JkimCjO87EqRT94axS5yKqpFSP1JjVdoqJg==
-  dependencies:
-    qs "^6.9.4"
+storyblok-js-client@^4.5.5:
+  version "4.5.5"
+  resolved "https://registry.yarnpkg.com/storyblok-js-client/-/storyblok-js-client-4.5.5.tgz#00b34b7f6d0a66a486cfc700472c267a62652d7a"
+  integrity sha512-PP71RWU3/3XgiFPQ83hz0T2zuI6syoPePPtDGYJwkHOwarjf+rbbQVS1xx1CDvxlfQCFkv0fPenG9ekH1fHFXQ==
 
 stream-browserify@3.0.0:
   version "3.0.0"
